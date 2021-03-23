@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9E711E27260A932900C6E5E7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E711E26260A932900C6E5E7 /* AppDelegate.swift */; };
+		9E711E29260A932900C6E5E7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E711E28260A932900C6E5E7 /* SceneDelegate.swift */; };
+		9E711E2B260A932900C6E5E7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E711E2A260A932900C6E5E7 /* ViewController.swift */; };
+		9E711E2E260A932900C6E5E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E711E2C260A932900C6E5E7 /* Main.storyboard */; };
+		9E711E30260A932900C6E5E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E711E2F260A932900C6E5E7 /* Assets.xcassets */; };
+		9E711E33260A932900C6E5E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E711E31260A932900C6E5E7 /* LaunchScreen.storyboard */; };
+		9E711E3E260A932900C6E5E7 /* HiroyukiVoiceAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E711E3D260A932900C6E5E7 /* HiroyukiVoiceAppTests.swift */; };
+		9E711E49260A932A00C6E5E7 /* HiroyukiVoiceAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E711E48260A932A00C6E5E7 /* HiroyukiVoiceAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9E711E3A260A932900C6E5E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9E711E1B260A932900C6E5E7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9E711E22260A932900C6E5E7;
+			remoteInfo = HiroyukiVoiceApp;
+		};
+		9E711E45260A932900C6E5E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9E711E1B260A932900C6E5E7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9E711E22260A932900C6E5E7;
+			remoteInfo = HiroyukiVoiceApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9E711E23260A932900C6E5E7 /* HiroyukiVoiceApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HiroyukiVoiceApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E711E26260A932900C6E5E7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9E711E28260A932900C6E5E7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9E711E2A260A932900C6E5E7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9E711E2D260A932900C6E5E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9E711E2F260A932900C6E5E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9E711E32260A932900C6E5E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9E711E34260A932900C6E5E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E711E39260A932900C6E5E7 /* HiroyukiVoiceAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HiroyukiVoiceAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E711E3D260A932900C6E5E7 /* HiroyukiVoiceAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HiroyukiVoiceAppTests.swift; sourceTree = "<group>"; };
+		9E711E3F260A932900C6E5E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E711E44260A932900C6E5E7 /* HiroyukiVoiceAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HiroyukiVoiceAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E711E48260A932A00C6E5E7 /* HiroyukiVoiceAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HiroyukiVoiceAppUITests.swift; sourceTree = "<group>"; };
+		9E711E4A260A932A00C6E5E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9E711E20260A932900C6E5E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E711E36260A932900C6E5E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E711E41260A932900C6E5E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9E711E1A260A932900C6E5E7 = {
+			isa = PBXGroup;
+			children = (
+				9E711E25260A932900C6E5E7 /* HiroyukiVoiceApp */,
+				9E711E3C260A932900C6E5E7 /* HiroyukiVoiceAppTests */,
+				9E711E47260A932900C6E5E7 /* HiroyukiVoiceAppUITests */,
+				9E711E24260A932900C6E5E7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9E711E24260A932900C6E5E7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9E711E23260A932900C6E5E7 /* HiroyukiVoiceApp.app */,
+				9E711E39260A932900C6E5E7 /* HiroyukiVoiceAppTests.xctest */,
+				9E711E44260A932900C6E5E7 /* HiroyukiVoiceAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9E711E25260A932900C6E5E7 /* HiroyukiVoiceApp */ = {
+			isa = PBXGroup;
+			children = (
+				9E711E26260A932900C6E5E7 /* AppDelegate.swift */,
+				9E711E28260A932900C6E5E7 /* SceneDelegate.swift */,
+				9E711E2A260A932900C6E5E7 /* ViewController.swift */,
+				9E711E2C260A932900C6E5E7 /* Main.storyboard */,
+				9E711E2F260A932900C6E5E7 /* Assets.xcassets */,
+				9E711E31260A932900C6E5E7 /* LaunchScreen.storyboard */,
+				9E711E34260A932900C6E5E7 /* Info.plist */,
+			);
+			path = HiroyukiVoiceApp;
+			sourceTree = "<group>";
+		};
+		9E711E3C260A932900C6E5E7 /* HiroyukiVoiceAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				9E711E3D260A932900C6E5E7 /* HiroyukiVoiceAppTests.swift */,
+				9E711E3F260A932900C6E5E7 /* Info.plist */,
+			);
+			path = HiroyukiVoiceAppTests;
+			sourceTree = "<group>";
+		};
+		9E711E47260A932900C6E5E7 /* HiroyukiVoiceAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9E711E48260A932A00C6E5E7 /* HiroyukiVoiceAppUITests.swift */,
+				9E711E4A260A932A00C6E5E7 /* Info.plist */,
+			);
+			path = HiroyukiVoiceAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9E711E22260A932900C6E5E7 /* HiroyukiVoiceApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E711E4D260A932A00C6E5E7 /* Build configuration list for PBXNativeTarget "HiroyukiVoiceApp" */;
+			buildPhases = (
+				9E711E1F260A932900C6E5E7 /* Sources */,
+				9E711E20260A932900C6E5E7 /* Frameworks */,
+				9E711E21260A932900C6E5E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HiroyukiVoiceApp;
+			productName = HiroyukiVoiceApp;
+			productReference = 9E711E23260A932900C6E5E7 /* HiroyukiVoiceApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9E711E38260A932900C6E5E7 /* HiroyukiVoiceAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E711E50260A932A00C6E5E7 /* Build configuration list for PBXNativeTarget "HiroyukiVoiceAppTests" */;
+			buildPhases = (
+				9E711E35260A932900C6E5E7 /* Sources */,
+				9E711E36260A932900C6E5E7 /* Frameworks */,
+				9E711E37260A932900C6E5E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9E711E3B260A932900C6E5E7 /* PBXTargetDependency */,
+			);
+			name = HiroyukiVoiceAppTests;
+			productName = HiroyukiVoiceAppTests;
+			productReference = 9E711E39260A932900C6E5E7 /* HiroyukiVoiceAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9E711E43260A932900C6E5E7 /* HiroyukiVoiceAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E711E53260A932A00C6E5E7 /* Build configuration list for PBXNativeTarget "HiroyukiVoiceAppUITests" */;
+			buildPhases = (
+				9E711E40260A932900C6E5E7 /* Sources */,
+				9E711E41260A932900C6E5E7 /* Frameworks */,
+				9E711E42260A932900C6E5E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9E711E46260A932900C6E5E7 /* PBXTargetDependency */,
+			);
+			name = HiroyukiVoiceAppUITests;
+			productName = HiroyukiVoiceAppUITests;
+			productReference = 9E711E44260A932900C6E5E7 /* HiroyukiVoiceAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9E711E1B260A932900C6E5E7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					9E711E22260A932900C6E5E7 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					9E711E38260A932900C6E5E7 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 9E711E22260A932900C6E5E7;
+					};
+					9E711E43260A932900C6E5E7 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 9E711E22260A932900C6E5E7;
+					};
+				};
+			};
+			buildConfigurationList = 9E711E1E260A932900C6E5E7 /* Build configuration list for PBXProject "HiroyukiVoiceApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9E711E1A260A932900C6E5E7;
+			productRefGroup = 9E711E24260A932900C6E5E7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9E711E22260A932900C6E5E7 /* HiroyukiVoiceApp */,
+				9E711E38260A932900C6E5E7 /* HiroyukiVoiceAppTests */,
+				9E711E43260A932900C6E5E7 /* HiroyukiVoiceAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9E711E21260A932900C6E5E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E711E33260A932900C6E5E7 /* LaunchScreen.storyboard in Resources */,
+				9E711E30260A932900C6E5E7 /* Assets.xcassets in Resources */,
+				9E711E2E260A932900C6E5E7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E711E37260A932900C6E5E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E711E42260A932900C6E5E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9E711E1F260A932900C6E5E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E711E2B260A932900C6E5E7 /* ViewController.swift in Sources */,
+				9E711E27260A932900C6E5E7 /* AppDelegate.swift in Sources */,
+				9E711E29260A932900C6E5E7 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E711E35260A932900C6E5E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E711E3E260A932900C6E5E7 /* HiroyukiVoiceAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E711E40260A932900C6E5E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E711E49260A932A00C6E5E7 /* HiroyukiVoiceAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9E711E3B260A932900C6E5E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9E711E22260A932900C6E5E7 /* HiroyukiVoiceApp */;
+			targetProxy = 9E711E3A260A932900C6E5E7 /* PBXContainerItemProxy */;
+		};
+		9E711E46260A932900C6E5E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9E711E22260A932900C6E5E7 /* HiroyukiVoiceApp */;
+			targetProxy = 9E711E45260A932900C6E5E7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9E711E2C260A932900C6E5E7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9E711E2D260A932900C6E5E7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9E711E31260A932900C6E5E7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9E711E32260A932900C6E5E7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9E711E4B260A932A00C6E5E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9E711E4C260A932A00C6E5E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9E711E4E260A932A00C6E5E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L27GL78CVB;
+				INFOPLIST_FILE = HiroyukiVoiceApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yasinoki.HiroyukiVoiceApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9E711E4F260A932A00C6E5E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L27GL78CVB;
+				INFOPLIST_FILE = HiroyukiVoiceApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yasinoki.HiroyukiVoiceApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9E711E51260A932A00C6E5E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L27GL78CVB;
+				INFOPLIST_FILE = HiroyukiVoiceAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yasinoki.HiroyukiVoiceAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HiroyukiVoiceApp.app/HiroyukiVoiceApp";
+			};
+			name = Debug;
+		};
+		9E711E52260A932A00C6E5E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L27GL78CVB;
+				INFOPLIST_FILE = HiroyukiVoiceAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yasinoki.HiroyukiVoiceAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HiroyukiVoiceApp.app/HiroyukiVoiceApp";
+			};
+			name = Release;
+		};
+		9E711E54260A932A00C6E5E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L27GL78CVB;
+				INFOPLIST_FILE = HiroyukiVoiceAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yasinoki.HiroyukiVoiceAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HiroyukiVoiceApp;
+			};
+			name = Debug;
+		};
+		9E711E55260A932A00C6E5E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L27GL78CVB;
+				INFOPLIST_FILE = HiroyukiVoiceAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yasinoki.HiroyukiVoiceAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HiroyukiVoiceApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9E711E1E260A932900C6E5E7 /* Build configuration list for PBXProject "HiroyukiVoiceApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E711E4B260A932A00C6E5E7 /* Debug */,
+				9E711E4C260A932A00C6E5E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9E711E4D260A932A00C6E5E7 /* Build configuration list for PBXNativeTarget "HiroyukiVoiceApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E711E4E260A932A00C6E5E7 /* Debug */,
+				9E711E4F260A932A00C6E5E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9E711E50260A932A00C6E5E7 /* Build configuration list for PBXNativeTarget "HiroyukiVoiceAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E711E51260A932A00C6E5E7 /* Debug */,
+				9E711E52260A932A00C6E5E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9E711E53260A932A00C6E5E7 /* Build configuration list for PBXNativeTarget "HiroyukiVoiceAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E711E54260A932A00C6E5E7 /* Debug */,
+				9E711E55260A932A00C6E5E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9E711E1B260A932900C6E5E7 /* Project object */;
+}
