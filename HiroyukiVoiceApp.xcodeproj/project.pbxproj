@@ -7,14 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		06EB80DD94FBE16A847E9E6B /* Pods_HiroyukiVoiceAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E9882D89FA1D2CDB834F63D /* Pods_HiroyukiVoiceAppTests.framework */; };
+		2E2139490E31EFC80E0BB10B /* Pods_HiroyukiVoiceApp_HiroyukiVoiceAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CB12662C7F2AB047DBA834D /* Pods_HiroyukiVoiceApp_HiroyukiVoiceAppUITests.framework */; };
 		9E711E27260A932900C6E5E7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E711E26260A932900C6E5E7 /* AppDelegate.swift */; };
 		9E711E29260A932900C6E5E7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E711E28260A932900C6E5E7 /* SceneDelegate.swift */; };
-		9E711E2B260A932900C6E5E7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E711E2A260A932900C6E5E7 /* ViewController.swift */; };
 		9E711E2E260A932900C6E5E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E711E2C260A932900C6E5E7 /* Main.storyboard */; };
 		9E711E30260A932900C6E5E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E711E2F260A932900C6E5E7 /* Assets.xcassets */; };
 		9E711E33260A932900C6E5E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E711E31260A932900C6E5E7 /* LaunchScreen.storyboard */; };
 		9E711E3E260A932900C6E5E7 /* HiroyukiVoiceAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E711E3D260A932900C6E5E7 /* HiroyukiVoiceAppTests.swift */; };
 		9E711E49260A932A00C6E5E7 /* HiroyukiVoiceAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E711E48260A932A00C6E5E7 /* HiroyukiVoiceAppUITests.swift */; };
+		9E711E65260A996900C6E5E7 /* PowerfulQuoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E711E64260A996900C6E5E7 /* PowerfulQuoteViewController.swift */; };
+		9E711E74260AA50C00C6E5E7 /* ウソつくのやめてもらっていいですか?.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9E711E6E260AA50C00C6E5E7 /* ウソつくのやめてもらっていいですか?.mp3 */; };
+		9E711E75260AA50C00C6E5E7 /* あなたの感想ですよね?.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9E711E6F260AA50C00C6E5E7 /* あなたの感想ですよね?.mp3 */; };
+		9E711E76260AA50C00C6E5E7 /* 写像?.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9E711E70260AA50C00C6E5E7 /* 写像?.mp3 */; };
+		9E711E77260AA50C00C6E5E7 /* はい、いいえで答えてください.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9E711E71260AA50C00C6E5E7 /* はい、いいえで答えてください.mp3 */; };
+		9E711E78260AA50C00C6E5E7 /* なんかそういうデータあるんですか?.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9E711E72260AA50C00C6E5E7 /* なんかそういうデータあるんですか?.mp3 */; };
+		9E711E79260AA50C00C6E5E7 /* うそはうそであると見抜ける人でないと.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9E711E73260AA50C00C6E5E7 /* うそはうそであると見抜ける人でないと.mp3 */; };
+		9E711E7E260AA61500C6E5E7 /* StreamingViewController_01.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E711E7D260AA61500C6E5E7 /* StreamingViewController_01.swift */; };
+		9E711E83260AB0AF00C6E5E7 /* StreamingViewController_02.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E711E82260AB0AF00C6E5E7 /* StreamingViewController_02.swift */; };
+		9E711E88260AB2C000C6E5E7 /* ExtraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E711E87260AB2C000C6E5E7 /* ExtraViewController.swift */; };
+		B994FFA387DBDDBA5E26CA70 /* Pods_HiroyukiVoiceApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8F370E72E61EE73EF3BC1FC /* Pods_HiroyukiVoiceApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +47,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		32AE42BDD597F8EF05DCB8F9 /* Pods-HiroyukiVoiceApp-HiroyukiVoiceAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HiroyukiVoiceApp-HiroyukiVoiceAppUITests.release.xcconfig"; path = "Target Support Files/Pods-HiroyukiVoiceApp-HiroyukiVoiceAppUITests/Pods-HiroyukiVoiceApp-HiroyukiVoiceAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		359BF802DF870DD51912B482 /* Pods-HiroyukiVoiceAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HiroyukiVoiceAppTests.release.xcconfig"; path = "Target Support Files/Pods-HiroyukiVoiceAppTests/Pods-HiroyukiVoiceAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		4E9882D89FA1D2CDB834F63D /* Pods_HiroyukiVoiceAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HiroyukiVoiceAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CB12662C7F2AB047DBA834D /* Pods_HiroyukiVoiceApp_HiroyukiVoiceAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HiroyukiVoiceApp_HiroyukiVoiceAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E711E23260A932900C6E5E7 /* HiroyukiVoiceApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HiroyukiVoiceApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E711E26260A932900C6E5E7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9E711E28260A932900C6E5E7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9E711E2A260A932900C6E5E7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9E711E2D260A932900C6E5E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9E711E2F260A932900C6E5E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9E711E32260A932900C6E5E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +64,21 @@
 		9E711E44260A932900C6E5E7 /* HiroyukiVoiceAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HiroyukiVoiceAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E711E48260A932A00C6E5E7 /* HiroyukiVoiceAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HiroyukiVoiceAppUITests.swift; sourceTree = "<group>"; };
 		9E711E4A260A932A00C6E5E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E711E64260A996900C6E5E7 /* PowerfulQuoteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PowerfulQuoteViewController.swift; sourceTree = "<group>"; tabWidth = 2; };
+		9E711E6E260AA50C00C6E5E7 /* ウソつくのやめてもらっていいですか?.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "ウソつくのやめてもらっていいですか?.mp3"; sourceTree = "<group>"; };
+		9E711E6F260AA50C00C6E5E7 /* あなたの感想ですよね?.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "あなたの感想ですよね?.mp3"; sourceTree = "<group>"; };
+		9E711E70260AA50C00C6E5E7 /* 写像?.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "写像?.mp3"; sourceTree = "<group>"; };
+		9E711E71260AA50C00C6E5E7 /* はい、いいえで答えてください.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "はい、いいえで答えてください.mp3"; sourceTree = "<group>"; };
+		9E711E72260AA50C00C6E5E7 /* なんかそういうデータあるんですか?.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "なんかそういうデータあるんですか?.mp3"; sourceTree = "<group>"; };
+		9E711E73260AA50C00C6E5E7 /* うそはうそであると見抜ける人でないと.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "うそはうそであると見抜ける人でないと.mp3"; sourceTree = "<group>"; };
+		9E711E7D260AA61500C6E5E7 /* StreamingViewController_01.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreamingViewController_01.swift; sourceTree = "<group>"; };
+		9E711E82260AB0AF00C6E5E7 /* StreamingViewController_02.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreamingViewController_02.swift; sourceTree = "<group>"; };
+		9E711E87260AB2C000C6E5E7 /* ExtraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtraViewController.swift; sourceTree = "<group>"; };
+		BC08C619B7DE81E08FE74286 /* Pods-HiroyukiVoiceApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HiroyukiVoiceApp.debug.xcconfig"; path = "Target Support Files/Pods-HiroyukiVoiceApp/Pods-HiroyukiVoiceApp.debug.xcconfig"; sourceTree = "<group>"; };
+		BFA9D8F7866C102929F43D88 /* Pods-HiroyukiVoiceApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HiroyukiVoiceApp.release.xcconfig"; path = "Target Support Files/Pods-HiroyukiVoiceApp/Pods-HiroyukiVoiceApp.release.xcconfig"; sourceTree = "<group>"; };
+		C8F370E72E61EE73EF3BC1FC /* Pods_HiroyukiVoiceApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HiroyukiVoiceApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0FD81812D4861FD4D8093FF /* Pods-HiroyukiVoiceApp-HiroyukiVoiceAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HiroyukiVoiceApp-HiroyukiVoiceAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-HiroyukiVoiceApp-HiroyukiVoiceAppUITests/Pods-HiroyukiVoiceApp-HiroyukiVoiceAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D18BA53AB98D56430086131A /* Pods-HiroyukiVoiceAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HiroyukiVoiceAppTests.debug.xcconfig"; path = "Target Support Files/Pods-HiroyukiVoiceAppTests/Pods-HiroyukiVoiceAppTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B994FFA387DBDDBA5E26CA70 /* Pods_HiroyukiVoiceApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06EB80DD94FBE16A847E9E6B /* Pods_HiroyukiVoiceAppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +102,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E2139490E31EFC80E0BB10B /* Pods_HiroyukiVoiceApp_HiroyukiVoiceAppUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		63CA559628A7F79B9274F388 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BC08C619B7DE81E08FE74286 /* Pods-HiroyukiVoiceApp.debug.xcconfig */,
+				BFA9D8F7866C102929F43D88 /* Pods-HiroyukiVoiceApp.release.xcconfig */,
+				D0FD81812D4861FD4D8093FF /* Pods-HiroyukiVoiceApp-HiroyukiVoiceAppUITests.debug.xcconfig */,
+				32AE42BDD597F8EF05DCB8F9 /* Pods-HiroyukiVoiceApp-HiroyukiVoiceAppUITests.release.xcconfig */,
+				D18BA53AB98D56430086131A /* Pods-HiroyukiVoiceAppTests.debug.xcconfig */,
+				359BF802DF870DD51912B482 /* Pods-HiroyukiVoiceAppTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		9E711E1A260A932900C6E5E7 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +130,8 @@
 				9E711E3C260A932900C6E5E7 /* HiroyukiVoiceAppTests */,
 				9E711E47260A932900C6E5E7 /* HiroyukiVoiceAppUITests */,
 				9E711E24260A932900C6E5E7 /* Products */,
+				63CA559628A7F79B9274F388 /* Pods */,
+				B331E045416CF3DEABC7CF8B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,10 +148,14 @@
 		9E711E25260A932900C6E5E7 /* HiroyukiVoiceApp */ = {
 			isa = PBXGroup;
 			children = (
+				9E711E87260AB2C000C6E5E7 /* ExtraViewController.swift */,
 				9E711E26260A932900C6E5E7 /* AppDelegate.swift */,
 				9E711E28260A932900C6E5E7 /* SceneDelegate.swift */,
-				9E711E2A260A932900C6E5E7 /* ViewController.swift */,
+				9E711E6C260AA50C00C6E5E7 /* HiroyukiVoiceAudio */,
 				9E711E2C260A932900C6E5E7 /* Main.storyboard */,
+				9E711E82260AB0AF00C6E5E7 /* StreamingViewController_02.swift */,
+				9E711E7D260AA61500C6E5E7 /* StreamingViewController_01.swift */,
+				9E711E64260A996900C6E5E7 /* PowerfulQuoteViewController.swift */,
 				9E711E2F260A932900C6E5E7 /* Assets.xcassets */,
 				9E711E31260A932900C6E5E7 /* LaunchScreen.storyboard */,
 				9E711E34260A932900C6E5E7 /* Info.plist */,
@@ -128,6 +181,37 @@
 			path = HiroyukiVoiceAppUITests;
 			sourceTree = "<group>";
 		};
+		9E711E6C260AA50C00C6E5E7 /* HiroyukiVoiceAudio */ = {
+			isa = PBXGroup;
+			children = (
+				9E711E6D260AA50C00C6E5E7 /* 名言 */,
+			);
+			path = HiroyukiVoiceAudio;
+			sourceTree = "<group>";
+		};
+		9E711E6D260AA50C00C6E5E7 /* 名言 */ = {
+			isa = PBXGroup;
+			children = (
+				9E711E6E260AA50C00C6E5E7 /* ウソつくのやめてもらっていいですか?.mp3 */,
+				9E711E6F260AA50C00C6E5E7 /* あなたの感想ですよね?.mp3 */,
+				9E711E70260AA50C00C6E5E7 /* 写像?.mp3 */,
+				9E711E71260AA50C00C6E5E7 /* はい、いいえで答えてください.mp3 */,
+				9E711E72260AA50C00C6E5E7 /* なんかそういうデータあるんですか?.mp3 */,
+				9E711E73260AA50C00C6E5E7 /* うそはうそであると見抜ける人でないと.mp3 */,
+			);
+			path = "名言";
+			sourceTree = "<group>";
+		};
+		B331E045416CF3DEABC7CF8B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C8F370E72E61EE73EF3BC1FC /* Pods_HiroyukiVoiceApp.framework */,
+				7CB12662C7F2AB047DBA834D /* Pods_HiroyukiVoiceApp_HiroyukiVoiceAppUITests.framework */,
+				4E9882D89FA1D2CDB834F63D /* Pods_HiroyukiVoiceAppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +219,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9E711E4D260A932A00C6E5E7 /* Build configuration list for PBXNativeTarget "HiroyukiVoiceApp" */;
 			buildPhases = (
+				139CD03D9925B0433CC139DD /* [CP] Check Pods Manifest.lock */,
 				9E711E1F260A932900C6E5E7 /* Sources */,
 				9E711E20260A932900C6E5E7 /* Frameworks */,
 				9E711E21260A932900C6E5E7 /* Resources */,
+				693CBAD6E1D3E18105F3CF36 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +238,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9E711E50260A932A00C6E5E7 /* Build configuration list for PBXNativeTarget "HiroyukiVoiceAppTests" */;
 			buildPhases = (
+				6956954A9E7703094FBB4566 /* [CP] Check Pods Manifest.lock */,
 				9E711E35260A932900C6E5E7 /* Sources */,
 				9E711E36260A932900C6E5E7 /* Frameworks */,
 				9E711E37260A932900C6E5E7 /* Resources */,
@@ -170,9 +257,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9E711E53260A932A00C6E5E7 /* Build configuration list for PBXNativeTarget "HiroyukiVoiceAppUITests" */;
 			buildPhases = (
+				08163EAF4C6B9B8D12F5794C /* [CP] Check Pods Manifest.lock */,
 				9E711E40260A932900C6E5E7 /* Sources */,
 				9E711E41260A932900C6E5E7 /* Frameworks */,
 				9E711E42260A932900C6E5E7 /* Resources */,
+				6FF7A5F8C126F3E99E1DD606 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -231,8 +320,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E711E76260AA50C00C6E5E7 /* 写像?.mp3 in Resources */,
+				9E711E77260AA50C00C6E5E7 /* はい、いいえで答えてください.mp3 in Resources */,
 				9E711E33260A932900C6E5E7 /* LaunchScreen.storyboard in Resources */,
 				9E711E30260A932900C6E5E7 /* Assets.xcassets in Resources */,
+				9E711E74260AA50C00C6E5E7 /* ウソつくのやめてもらっていいですか?.mp3 in Resources */,
+				9E711E75260AA50C00C6E5E7 /* あなたの感想ですよね?.mp3 in Resources */,
+				9E711E79260AA50C00C6E5E7 /* うそはうそであると見抜ける人でないと.mp3 in Resources */,
+				9E711E78260AA50C00C6E5E7 /* なんかそういうデータあるんですか?.mp3 in Resources */,
 				9E711E2E260A932900C6E5E7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -253,14 +348,120 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		08163EAF4C6B9B8D12F5794C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HiroyukiVoiceApp-HiroyukiVoiceAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		139CD03D9925B0433CC139DD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HiroyukiVoiceApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		693CBAD6E1D3E18105F3CF36 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HiroyukiVoiceApp/Pods-HiroyukiVoiceApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HiroyukiVoiceApp/Pods-HiroyukiVoiceApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HiroyukiVoiceApp/Pods-HiroyukiVoiceApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6956954A9E7703094FBB4566 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HiroyukiVoiceAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6FF7A5F8C126F3E99E1DD606 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HiroyukiVoiceApp-HiroyukiVoiceAppUITests/Pods-HiroyukiVoiceApp-HiroyukiVoiceAppUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HiroyukiVoiceApp-HiroyukiVoiceAppUITests/Pods-HiroyukiVoiceApp-HiroyukiVoiceAppUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HiroyukiVoiceApp-HiroyukiVoiceAppUITests/Pods-HiroyukiVoiceApp-HiroyukiVoiceAppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9E711E1F260A932900C6E5E7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9E711E2B260A932900C6E5E7 /* ViewController.swift in Sources */,
+				9E711E7E260AA61500C6E5E7 /* StreamingViewController_01.swift in Sources */,
 				9E711E27260A932900C6E5E7 /* AppDelegate.swift in Sources */,
 				9E711E29260A932900C6E5E7 /* SceneDelegate.swift in Sources */,
+				9E711E83260AB0AF00C6E5E7 /* StreamingViewController_02.swift in Sources */,
+				9E711E65260A996900C6E5E7 /* PowerfulQuoteViewController.swift in Sources */,
+				9E711E88260AB2C000C6E5E7 /* ExtraViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,6 +634,7 @@
 		};
 		9E711E4E260A932A00C6E5E7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC08C619B7DE81E08FE74286 /* Pods-HiroyukiVoiceApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -452,6 +654,7 @@
 		};
 		9E711E4F260A932A00C6E5E7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BFA9D8F7866C102929F43D88 /* Pods-HiroyukiVoiceApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -471,6 +674,7 @@
 		};
 		9E711E51260A932A00C6E5E7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D18BA53AB98D56430086131A /* Pods-HiroyukiVoiceAppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -493,6 +697,7 @@
 		};
 		9E711E52260A932A00C6E5E7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 359BF802DF870DD51912B482 /* Pods-HiroyukiVoiceAppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -515,6 +720,7 @@
 		};
 		9E711E54260A932A00C6E5E7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0FD81812D4861FD4D8093FF /* Pods-HiroyukiVoiceApp-HiroyukiVoiceAppUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -535,6 +741,7 @@
 		};
 		9E711E55260A932A00C6E5E7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32AE42BDD597F8EF05DCB8F9 /* Pods-HiroyukiVoiceApp-HiroyukiVoiceAppUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

@@ -1,0 +1,1139 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		10225339F832BABE4FFE7F895EBA9414 /* Pods-HiroyukiVoiceApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B4DF7099199239F75A301A9FD5A2410E /* Pods-HiroyukiVoiceApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		21627DBE8C2641BE3636FCEBC2144EEA /* Pods-HiroyukiVoiceApp-HiroyukiVoiceAppUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CE40DFDC9719F6D2B596FD8653494D2 /* Pods-HiroyukiVoiceApp-HiroyukiVoiceAppUITests-dummy.m */; };
+		37CCE406D299AE340CB69CB271E10717 /* PKHUDAnimating.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0D3E6EF37C82512A2487C4416765AD /* PKHUDAnimating.swift */; };
+		39A3E179EE30D7375B82C56FEB0C60DE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		442C183E3045A0CD9819448C1D9F83DE /* PKHUDWideBaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82A37E8923181A603D3CAD41BC5A3D51 /* PKHUDWideBaseView.swift */; };
+		4458D4831EFF5B430517A417824B97C8 /* WindowRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8912969D2C8428B6CD7BAD7EB638E19 /* WindowRootViewController.swift */; };
+		45C06268B8C6970A182E5C1339FEDD78 /* PKHUDAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC6D3F8E9CE385997B0F69AA329CA1E /* PKHUDAnimation.swift */; };
+		4860DECE333B6A4F1456BBF70086683B /* HUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98DA36D6D1CB8F0FC2D581B101179919 /* HUD.swift */; };
+		4FCB352472E7F19B3BDCE6AC2113F68D /* Window.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401962679DF6B20EF00A4A776007D8AB /* Window.swift */; };
+		5AC7BB9213CF4BE3A162764A0442DBBF /* Pods-HiroyukiVoiceAppTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FFF5909F8B94241E23A2BFAC18E23247 /* Pods-HiroyukiVoiceAppTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6113988C96FAD916C09236249BB60D7E /* Pods-HiroyukiVoiceApp-HiroyukiVoiceAppUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3083723CA73F97C2B910306300AC9F39 /* Pods-HiroyukiVoiceApp-HiroyukiVoiceAppUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6A990568A1CEBF0E6CC5AA99BB4BBAA1 /* PKHUDResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = BFCB2D5C605270A32522299AED3B5AE6 /* PKHUDResources.bundle */; };
+		6FA43D030B219F458A44D30B4130E38B /* PKHUDAssets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 732595932573AE1D1FC011304A7E1FAA /* PKHUDAssets.swift */; };
+		6FE50D5E056EC4CBEEF355EF08AA1379 /* PKHUDTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB559DD39EA7BB5686ED820DA1BC13DD /* PKHUDTextView.swift */; };
+		702DE1CBD2D4A4CF3CFE4598C0DA499D /* PKHUDProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD3236C297A8E3C7F3AFBA57798B13B0 /* PKHUDProgressView.swift */; };
+		7153031DE500788220C79F6BB6CF4718 /* PKHUDSquareBaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A25EE694F2AE4D3CDB6CB41D6BEEC41 /* PKHUDSquareBaseView.swift */; };
+		72A26160D606426C8830C60D18960FB9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		7FA5EA7A6B4376FD556493FC4B45CA83 /* PKHUD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CE4393B3072A3D765C6141C69A743F5 /* PKHUD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8BF45A41937C28F9FF51F29931B4AADF /* PKHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 517A1D534AFD829083091EE2D255AC57 /* PKHUD-dummy.m */; };
+		AAC4A96F96AFCF327BA3F2E47104C37C /* PKHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 7383B3F17D69CCB34CECFC92C1524868 /* PKHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B41DDBE6556BC6F7411F22024B4A1BCB /* PKHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028A4CAB51A70695B24674289390E2E9 /* PKHUD.swift */; };
+		C445335031CABCF234C80CED2939B8B8 /* PKHUDErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05AA3B068EC8E7DD1FE9AA8A8D42FDF /* PKHUDErrorView.swift */; };
+		C67FEADA8378EEE41809420D9F6F696E /* PKHUDRotatingImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B023F046A0E8BDFF85574CF580CBA1 /* PKHUDRotatingImageView.swift */; };
+		C9D65B4F291C1AF210A7B58194F8B06E /* PKHUDSystemActivityIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6002C849A6467FFAA794FD6AA55E7AFE /* PKHUDSystemActivityIndicatorView.swift */; };
+		CA50B00222610BDFDF310B2DF8DCB5E4 /* FrameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52CB803308CC5ADEDE192301A1F5B9D /* FrameView.swift */; };
+		CA53B8FCA63443119921A9678CA4D95A /* Pods-HiroyukiVoiceApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BC16790743FB503AD91CFE06EA8193F7 /* Pods-HiroyukiVoiceApp-dummy.m */; };
+		E44A499C0DA89D2F5BC7F89D53EF779A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		E97AC7BA800A0DFF5343DAC83D0AB539 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7714E713734B65F42E0097CD56F96454 /* Images.xcassets */; };
+		F6CB196C6C4ADAADA4F7594B43644BA1 /* PKHUDSuccessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62B937C29D0BA786EAA40275A97FF7C /* PKHUDSuccessView.swift */; };
+		F8A260642C8E349F139FCCC7E51A2064 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		FDBE8534F2C2B0E5E30758171DD32BFB /* Pods-HiroyukiVoiceAppTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EF37151FD9930FA51F01006F6BFE74E /* Pods-HiroyukiVoiceAppTests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		13D78716558C52BC75FF8579F587F00B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 364873017BA37260EF589D44B6B73D21;
+			remoteInfo = PKHUD;
+		};
+		1F1105EC8B0CCB6120471BB2ECAFF04C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A7F7332F1050B42A501616421AC869EB;
+			remoteInfo = "PKHUD-PKHUDResources";
+		};
+		A9E2CFF657D1BEA44D7B11F2B2578EAF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 679126C1AD810221ED1BFB738812B6D5;
+			remoteInfo = "Pods-HiroyukiVoiceApp";
+		};
+		DE36936C8FEA7B9123DDD59A4085E24B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 364873017BA37260EF589D44B6B73D21;
+			remoteInfo = PKHUD;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		028A4CAB51A70695B24674289390E2E9 /* PKHUD.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PKHUD.swift; path = PKHUD/PKHUD.swift; sourceTree = "<group>"; };
+		05A2656F46E8CA87E77A035911B33D10 /* PKHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PKHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B3A75DB51B7F1DC45539C8323E8D808 /* Pods-HiroyukiVoiceApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HiroyukiVoiceApp.release.xcconfig"; sourceTree = "<group>"; };
+		1813DDAB818661885D37D63549B57FE5 /* Pods-HiroyukiVoiceApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HiroyukiVoiceApp.debug.xcconfig"; sourceTree = "<group>"; };
+		19BFAEAAFEBF1BA249ACF1BE688560FF /* Pods_HiroyukiVoiceAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HiroyukiVoiceAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A34B10BD065791102BA2847F1A93C58 /* Pods-HiroyukiVoiceApp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HiroyukiVoiceApp-frameworks.sh"; sourceTree = "<group>"; };
+		1CE40DFDC9719F6D2B596FD8653494D2 /* Pods-HiroyukiVoiceApp-HiroyukiVoiceAppUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HiroyukiVoiceApp-HiroyukiVoiceAppUITests-dummy.m"; sourceTree = "<group>"; };
+		1DFF4652943B767E9A0FBCEC39778DAC /* ResourceBundle-PKHUDResources-PKHUD-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-PKHUDResources-PKHUD-Info.plist"; sourceTree = "<group>"; };
+		1EF37151FD9930FA51F01006F6BFE74E /* Pods-HiroyukiVoiceAppTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HiroyukiVoiceAppTests-dummy.m"; sourceTree = "<group>"; };
+		200F71A6BA80BFDB6BA3607AB160ADAB /* Pods_HiroyukiVoiceApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HiroyukiVoiceApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		20476B67739FB52C36A9C81F3CEEA4D4 /* Pods-HiroyukiVoiceApp-HiroyukiVoiceAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HiroyukiVoiceApp-HiroyukiVoiceAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		23B2A003D6280DCBE5E767C7E7B90284 /* Pods-HiroyukiVoiceApp-HiroyukiVoiceAppUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HiroyukiVoiceApp-HiroyukiVoiceAppUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		267AAFDB047C97DCF6AF66DEC2EFA13B /* Pods_HiroyukiVoiceApp_HiroyukiVoiceAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HiroyukiVoiceApp_HiroyukiVoiceAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		26997B5D1A600992AEEF15ADF1009A26 /* Pods-HiroyukiVoiceApp-HiroyukiVoiceAppUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HiroyukiVoiceApp-HiroyukiVoiceAppUITests.modulemap"; sourceTree = "<group>"; };
+		2763BF097EB547184878C25DE580FB5E /* Pods-HiroyukiVoiceApp-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HiroyukiVoiceApp-Info.plist"; sourceTree = "<group>"; };
+		2CE4393B3072A3D765C6141C69A743F5 /* PKHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PKHUD-umbrella.h"; sourceTree = "<group>"; };
+		3083723CA73F97C2B910306300AC9F39 /* Pods-HiroyukiVoiceApp-HiroyukiVoiceAppUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HiroyukiVoiceApp-HiroyukiVoiceAppUITests-umbrella.h"; sourceTree = "<group>"; };
+		31041C5F5D3454156974385052369F95 /* Pods-HiroyukiVoiceApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HiroyukiVoiceApp-acknowledgements.plist"; sourceTree = "<group>"; };
+		35DF016AA823B5275AA8488F2C07D267 /* PKHUD.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PKHUD.debug.xcconfig; sourceTree = "<group>"; };
+		401962679DF6B20EF00A4A776007D8AB /* Window.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Window.swift; path = PKHUD/Window.swift; sourceTree = "<group>"; };
+		517A1D534AFD829083091EE2D255AC57 /* PKHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PKHUD-dummy.m"; sourceTree = "<group>"; };
+		5DB55DF877018C140F146F93112CD3EA /* Pods-HiroyukiVoiceApp-HiroyukiVoiceAppUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HiroyukiVoiceApp-HiroyukiVoiceAppUITests-frameworks.sh"; sourceTree = "<group>"; };
+		6002C849A6467FFAA794FD6AA55E7AFE /* PKHUDSystemActivityIndicatorView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PKHUDSystemActivityIndicatorView.swift; path = PKHUD/PKHUDSystemActivityIndicatorView.swift; sourceTree = "<group>"; };
+		6627AF16CD8957F7B214F4108172BEC3 /* Pods-HiroyukiVoiceApp-HiroyukiVoiceAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HiroyukiVoiceApp-HiroyukiVoiceAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6A25EE694F2AE4D3CDB6CB41D6BEEC41 /* PKHUDSquareBaseView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PKHUDSquareBaseView.swift; path = PKHUD/PKHUDSquareBaseView.swift; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		732595932573AE1D1FC011304A7E1FAA /* PKHUDAssets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PKHUDAssets.swift; path = PKHUD/PKHUDAssets.swift; sourceTree = "<group>"; };
+		7383B3F17D69CCB34CECFC92C1524868 /* PKHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PKHUD.h; path = PKHUD/PKHUD.h; sourceTree = "<group>"; };
+		7714E713734B65F42E0097CD56F96454 /* Images.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = PKHUD/Images.xcassets; sourceTree = "<group>"; };
+		7A0D3E6EF37C82512A2487C4416765AD /* PKHUDAnimating.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PKHUDAnimating.swift; path = PKHUD/PKHUDAnimating.swift; sourceTree = "<group>"; };
+		82A37E8923181A603D3CAD41BC5A3D51 /* PKHUDWideBaseView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PKHUDWideBaseView.swift; path = PKHUD/PKHUDWideBaseView.swift; sourceTree = "<group>"; };
+		8CC6D3F8E9CE385997B0F69AA329CA1E /* PKHUDAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PKHUDAnimation.swift; path = PKHUD/PKHUDAnimation.swift; sourceTree = "<group>"; };
+		9196B75EA7337827DCAE142CFEA9F691 /* Pods-HiroyukiVoiceAppTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HiroyukiVoiceAppTests-Info.plist"; sourceTree = "<group>"; };
+		98DA36D6D1CB8F0FC2D581B101179919 /* HUD.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HUD.swift; path = PKHUD/HUD.swift; sourceTree = "<group>"; };
+		9A722D745C63636AAA254D699E477FA3 /* Pods-HiroyukiVoiceApp-HiroyukiVoiceAppUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HiroyukiVoiceApp-HiroyukiVoiceAppUITests-Info.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A332BEBF322E847085BD3880E36B3D85 /* Pods-HiroyukiVoiceAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HiroyukiVoiceAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		A52CB803308CC5ADEDE192301A1F5B9D /* FrameView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FrameView.swift; path = PKHUD/FrameView.swift; sourceTree = "<group>"; };
+		A7EF00828145DF26EE6A1D1DEED289DC /* Pods-HiroyukiVoiceAppTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HiroyukiVoiceAppTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		AD40A3E32AC22F368E7440A2B2C0C2B2 /* PKHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PKHUD.modulemap; sourceTree = "<group>"; };
+		B1813368889C88E12E026C6D53346952 /* Pods-HiroyukiVoiceApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HiroyukiVoiceApp-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B4DF7099199239F75A301A9FD5A2410E /* Pods-HiroyukiVoiceApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HiroyukiVoiceApp-umbrella.h"; sourceTree = "<group>"; };
+		BC16790743FB503AD91CFE06EA8193F7 /* Pods-HiroyukiVoiceApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HiroyukiVoiceApp-dummy.m"; sourceTree = "<group>"; };
+		BFCB2D5C605270A32522299AED3B5AE6 /* PKHUDResources.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PKHUDResources.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		C45B7AF2FB96B893CA1AC8AD5ACF65F8 /* PKHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PKHUD-prefix.pch"; sourceTree = "<group>"; };
+		C6CADF84E6D658EAB060F3E54B1A2717 /* Pods-HiroyukiVoiceAppTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HiroyukiVoiceAppTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		CB559DD39EA7BB5686ED820DA1BC13DD /* PKHUDTextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PKHUDTextView.swift; path = PKHUD/PKHUDTextView.swift; sourceTree = "<group>"; };
+		D28BCD79951F3859509AFB72BEC79BCC /* Pods-HiroyukiVoiceApp-HiroyukiVoiceAppUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HiroyukiVoiceApp-HiroyukiVoiceAppUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		D62B937C29D0BA786EAA40275A97FF7C /* PKHUDSuccessView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PKHUDSuccessView.swift; path = PKHUD/PKHUDSuccessView.swift; sourceTree = "<group>"; };
+		D8912969D2C8428B6CD7BAD7EB638E19 /* WindowRootViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WindowRootViewController.swift; path = PKHUD/WindowRootViewController.swift; sourceTree = "<group>"; };
+		D8B023F046A0E8BDFF85574CF580CBA1 /* PKHUDRotatingImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PKHUDRotatingImageView.swift; path = PKHUD/PKHUDRotatingImageView.swift; sourceTree = "<group>"; };
+		E05AA3B068EC8E7DD1FE9AA8A8D42FDF /* PKHUDErrorView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PKHUDErrorView.swift; path = PKHUD/PKHUDErrorView.swift; sourceTree = "<group>"; };
+		E72E9614AA2B50452AC5207787E0BF3F /* Pods-HiroyukiVoiceAppTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HiroyukiVoiceAppTests.modulemap"; sourceTree = "<group>"; };
+		EF8D6208CF6B418C49C6F60C9BB86B8C /* Pods-HiroyukiVoiceApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HiroyukiVoiceApp.modulemap"; sourceTree = "<group>"; };
+		F1A555794666D54F4B54BA4C33C3274F /* PKHUD.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PKHUD.release.xcconfig; sourceTree = "<group>"; };
+		FBD4F410C5E20DCABB98654053E4082D /* Pods-HiroyukiVoiceAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HiroyukiVoiceAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FD2A64C016418B9886B1297FD4CE7F4B /* PKHUD-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PKHUD-Info.plist"; sourceTree = "<group>"; };
+		FD3236C297A8E3C7F3AFBA57798B13B0 /* PKHUDProgressView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PKHUDProgressView.swift; path = PKHUD/PKHUDProgressView.swift; sourceTree = "<group>"; };
+		FFF5909F8B94241E23A2BFAC18E23247 /* Pods-HiroyukiVoiceAppTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HiroyukiVoiceAppTests-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0B774D0B648C5C7E17B63065A7B199C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E44A499C0DA89D2F5BC7F89D53EF779A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DC73663CD7E2A04D6BD7EA0D8175BD6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C338C7020B920F5C9C5F69BC239CB4C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39A3E179EE30D7375B82C56FEB0C60DE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		673D07F41151D7D989D3BBEB64F276AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8A260642C8E349F139FCCC7E51A2064 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9E4E892EF6AD7CC6995859AA6DD2E7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72A26160D606426C8830C60D18960FB9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03F51FADBFADA7F72DE9E12BA78B9AB7 /* Pods-HiroyukiVoiceApp-HiroyukiVoiceAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				26997B5D1A600992AEEF15ADF1009A26 /* Pods-HiroyukiVoiceApp-HiroyukiVoiceAppUITests.modulemap */,
+				23B2A003D6280DCBE5E767C7E7B90284 /* Pods-HiroyukiVoiceApp-HiroyukiVoiceAppUITests-acknowledgements.markdown */,
+				D28BCD79951F3859509AFB72BEC79BCC /* Pods-HiroyukiVoiceApp-HiroyukiVoiceAppUITests-acknowledgements.plist */,
+				1CE40DFDC9719F6D2B596FD8653494D2 /* Pods-HiroyukiVoiceApp-HiroyukiVoiceAppUITests-dummy.m */,
+				5DB55DF877018C140F146F93112CD3EA /* Pods-HiroyukiVoiceApp-HiroyukiVoiceAppUITests-frameworks.sh */,
+				9A722D745C63636AAA254D699E477FA3 /* Pods-HiroyukiVoiceApp-HiroyukiVoiceAppUITests-Info.plist */,
+				3083723CA73F97C2B910306300AC9F39 /* Pods-HiroyukiVoiceApp-HiroyukiVoiceAppUITests-umbrella.h */,
+				20476B67739FB52C36A9C81F3CEEA4D4 /* Pods-HiroyukiVoiceApp-HiroyukiVoiceAppUITests.debug.xcconfig */,
+				6627AF16CD8957F7B214F4108172BEC3 /* Pods-HiroyukiVoiceApp-HiroyukiVoiceAppUITests.release.xcconfig */,
+			);
+			name = "Pods-HiroyukiVoiceApp-HiroyukiVoiceAppUITests";
+			path = "Target Support Files/Pods-HiroyukiVoiceApp-HiroyukiVoiceAppUITests";
+			sourceTree = "<group>";
+		};
+		04ABCDDE2648A1C775D487595DB8D7EC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C8E0FA0EE3A771117717F2D769CF52D9 /* PKHUD */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		40D25CADE164C2AEC3D471D05DD3B6A6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7714E713734B65F42E0097CD56F96454 /* Images.xcassets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		598841EFE227966CA8E9BBDE6FC3A199 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AD40A3E32AC22F368E7440A2B2C0C2B2 /* PKHUD.modulemap */,
+				517A1D534AFD829083091EE2D255AC57 /* PKHUD-dummy.m */,
+				FD2A64C016418B9886B1297FD4CE7F4B /* PKHUD-Info.plist */,
+				C45B7AF2FB96B893CA1AC8AD5ACF65F8 /* PKHUD-prefix.pch */,
+				2CE4393B3072A3D765C6141C69A743F5 /* PKHUD-umbrella.h */,
+				35DF016AA823B5275AA8488F2C07D267 /* PKHUD.debug.xcconfig */,
+				F1A555794666D54F4B54BA4C33C3274F /* PKHUD.release.xcconfig */,
+				1DFF4652943B767E9A0FBCEC39778DAC /* ResourceBundle-PKHUDResources-PKHUD-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/PKHUD";
+			sourceTree = "<group>";
+		};
+		5D6DA8AE2FBE5B301CCFD42BA41FA532 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F6F1F9CE355556AC8B1CF95DC150CBD0 /* Pods-HiroyukiVoiceApp */,
+				03F51FADBFADA7F72DE9E12BA78B9AB7 /* Pods-HiroyukiVoiceApp-HiroyukiVoiceAppUITests */,
+				FDA7522BC4E0B7D32997D7C66D23FA26 /* Pods-HiroyukiVoiceAppTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		C8E0FA0EE3A771117717F2D769CF52D9 /* PKHUD */ = {
+			isa = PBXGroup;
+			children = (
+				A52CB803308CC5ADEDE192301A1F5B9D /* FrameView.swift */,
+				98DA36D6D1CB8F0FC2D581B101179919 /* HUD.swift */,
+				7383B3F17D69CCB34CECFC92C1524868 /* PKHUD.h */,
+				028A4CAB51A70695B24674289390E2E9 /* PKHUD.swift */,
+				7A0D3E6EF37C82512A2487C4416765AD /* PKHUDAnimating.swift */,
+				8CC6D3F8E9CE385997B0F69AA329CA1E /* PKHUDAnimation.swift */,
+				732595932573AE1D1FC011304A7E1FAA /* PKHUDAssets.swift */,
+				E05AA3B068EC8E7DD1FE9AA8A8D42FDF /* PKHUDErrorView.swift */,
+				FD3236C297A8E3C7F3AFBA57798B13B0 /* PKHUDProgressView.swift */,
+				D8B023F046A0E8BDFF85574CF580CBA1 /* PKHUDRotatingImageView.swift */,
+				6A25EE694F2AE4D3CDB6CB41D6BEEC41 /* PKHUDSquareBaseView.swift */,
+				D62B937C29D0BA786EAA40275A97FF7C /* PKHUDSuccessView.swift */,
+				6002C849A6467FFAA794FD6AA55E7AFE /* PKHUDSystemActivityIndicatorView.swift */,
+				CB559DD39EA7BB5686ED820DA1BC13DD /* PKHUDTextView.swift */,
+				82A37E8923181A603D3CAD41BC5A3D51 /* PKHUDWideBaseView.swift */,
+				401962679DF6B20EF00A4A776007D8AB /* Window.swift */,
+				D8912969D2C8428B6CD7BAD7EB638E19 /* WindowRootViewController.swift */,
+				40D25CADE164C2AEC3D471D05DD3B6A6 /* Resources */,
+				598841EFE227966CA8E9BBDE6FC3A199 /* Support Files */,
+			);
+			path = PKHUD;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				04ABCDDE2648A1C775D487595DB8D7EC /* Pods */,
+				EE9C7D52C03CD8AC8815C5CC2DF6AAE0 /* Products */,
+				5D6DA8AE2FBE5B301CCFD42BA41FA532 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EE9C7D52C03CD8AC8815C5CC2DF6AAE0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				05A2656F46E8CA87E77A035911B33D10 /* PKHUD.framework */,
+				BFCB2D5C605270A32522299AED3B5AE6 /* PKHUDResources.bundle */,
+				200F71A6BA80BFDB6BA3607AB160ADAB /* Pods_HiroyukiVoiceApp.framework */,
+				267AAFDB047C97DCF6AF66DEC2EFA13B /* Pods_HiroyukiVoiceApp_HiroyukiVoiceAppUITests.framework */,
+				19BFAEAAFEBF1BA249ACF1BE688560FF /* Pods_HiroyukiVoiceAppTests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F6F1F9CE355556AC8B1CF95DC150CBD0 /* Pods-HiroyukiVoiceApp */ = {
+			isa = PBXGroup;
+			children = (
+				EF8D6208CF6B418C49C6F60C9BB86B8C /* Pods-HiroyukiVoiceApp.modulemap */,
+				B1813368889C88E12E026C6D53346952 /* Pods-HiroyukiVoiceApp-acknowledgements.markdown */,
+				31041C5F5D3454156974385052369F95 /* Pods-HiroyukiVoiceApp-acknowledgements.plist */,
+				BC16790743FB503AD91CFE06EA8193F7 /* Pods-HiroyukiVoiceApp-dummy.m */,
+				1A34B10BD065791102BA2847F1A93C58 /* Pods-HiroyukiVoiceApp-frameworks.sh */,
+				2763BF097EB547184878C25DE580FB5E /* Pods-HiroyukiVoiceApp-Info.plist */,
+				B4DF7099199239F75A301A9FD5A2410E /* Pods-HiroyukiVoiceApp-umbrella.h */,
+				1813DDAB818661885D37D63549B57FE5 /* Pods-HiroyukiVoiceApp.debug.xcconfig */,
+				0B3A75DB51B7F1DC45539C8323E8D808 /* Pods-HiroyukiVoiceApp.release.xcconfig */,
+			);
+			name = "Pods-HiroyukiVoiceApp";
+			path = "Target Support Files/Pods-HiroyukiVoiceApp";
+			sourceTree = "<group>";
+		};
+		FDA7522BC4E0B7D32997D7C66D23FA26 /* Pods-HiroyukiVoiceAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				E72E9614AA2B50452AC5207787E0BF3F /* Pods-HiroyukiVoiceAppTests.modulemap */,
+				A7EF00828145DF26EE6A1D1DEED289DC /* Pods-HiroyukiVoiceAppTests-acknowledgements.markdown */,
+				C6CADF84E6D658EAB060F3E54B1A2717 /* Pods-HiroyukiVoiceAppTests-acknowledgements.plist */,
+				1EF37151FD9930FA51F01006F6BFE74E /* Pods-HiroyukiVoiceAppTests-dummy.m */,
+				9196B75EA7337827DCAE142CFEA9F691 /* Pods-HiroyukiVoiceAppTests-Info.plist */,
+				FFF5909F8B94241E23A2BFAC18E23247 /* Pods-HiroyukiVoiceAppTests-umbrella.h */,
+				FBD4F410C5E20DCABB98654053E4082D /* Pods-HiroyukiVoiceAppTests.debug.xcconfig */,
+				A332BEBF322E847085BD3880E36B3D85 /* Pods-HiroyukiVoiceAppTests.release.xcconfig */,
+			);
+			name = "Pods-HiroyukiVoiceAppTests";
+			path = "Target Support Files/Pods-HiroyukiVoiceAppTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		082A695DAC48E672982D90F97CB26897 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10225339F832BABE4FFE7F895EBA9414 /* Pods-HiroyukiVoiceApp-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77FE06C24F3D9A30969AF6292046EA64 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FA5EA7A6B4376FD556493FC4B45CA83 /* PKHUD-umbrella.h in Headers */,
+				AAC4A96F96AFCF327BA3F2E47104C37C /* PKHUD.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE4B679602855C1AB042E15CEE54B619 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6113988C96FAD916C09236249BB60D7E /* Pods-HiroyukiVoiceApp-HiroyukiVoiceAppUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC63B1198310DFE4D9F34BE68E7F3D41 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AC7BB9213CF4BE3A162764A0442DBBF /* Pods-HiroyukiVoiceAppTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		14165AAE09969F2BA908826A0FA7B2FE /* Pods-HiroyukiVoiceAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9443BF387EDF159E16947D08982DE96 /* Build configuration list for PBXNativeTarget "Pods-HiroyukiVoiceAppTests" */;
+			buildPhases = (
+				CC63B1198310DFE4D9F34BE68E7F3D41 /* Headers */,
+				CE7EAEB1F6934B16EF831E5873B61F3B /* Sources */,
+				C9E4E892EF6AD7CC6995859AA6DD2E7A /* Frameworks */,
+				47392453D4523BCC1EF4B31CAA7F9867 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				58BD15CEDA0549319B0BF534BCA8E9E4 /* PBXTargetDependency */,
+			);
+			name = "Pods-HiroyukiVoiceAppTests";
+			productName = "Pods-HiroyukiVoiceAppTests";
+			productReference = 19BFAEAAFEBF1BA249ACF1BE688560FF /* Pods_HiroyukiVoiceAppTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		364873017BA37260EF589D44B6B73D21 /* PKHUD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B0B7FC0B15E409AF42F9E04D7F90FE9 /* Build configuration list for PBXNativeTarget "PKHUD" */;
+			buildPhases = (
+				77FE06C24F3D9A30969AF6292046EA64 /* Headers */,
+				CAA693190E7E902B5A46F8B6A4723E98 /* Sources */,
+				0B774D0B648C5C7E17B63065A7B199C0 /* Frameworks */,
+				4654AD7D19C51A7EF7138982B5AC53B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D85D0EE9EB020CE874385F5C0C2D5B31 /* PBXTargetDependency */,
+			);
+			name = PKHUD;
+			productName = PKHUD;
+			productReference = 05A2656F46E8CA87E77A035911B33D10 /* PKHUD.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		679126C1AD810221ED1BFB738812B6D5 /* Pods-HiroyukiVoiceApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8406AD83D535CE0216B2873CF2FBE59C /* Build configuration list for PBXNativeTarget "Pods-HiroyukiVoiceApp" */;
+			buildPhases = (
+				082A695DAC48E672982D90F97CB26897 /* Headers */,
+				288A24365694C3DE3AF23AD8278C3934 /* Sources */,
+				5C338C7020B920F5C9C5F69BC239CB4C /* Frameworks */,
+				CE3E1232D7CD0A1FD9FE6B691265510A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC6CAEE41B906087FE19BF92665C85BA /* PBXTargetDependency */,
+			);
+			name = "Pods-HiroyukiVoiceApp";
+			productName = "Pods-HiroyukiVoiceApp";
+			productReference = 200F71A6BA80BFDB6BA3607AB160ADAB /* Pods_HiroyukiVoiceApp.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		850FEC1DCE2032CBE8B4DFB7241A123F /* Pods-HiroyukiVoiceApp-HiroyukiVoiceAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62BAF2BA04788C209D4656680926A949 /* Build configuration list for PBXNativeTarget "Pods-HiroyukiVoiceApp-HiroyukiVoiceAppUITests" */;
+			buildPhases = (
+				BE4B679602855C1AB042E15CEE54B619 /* Headers */,
+				1C726155FEEC7FD89DE7052C25F0A3A4 /* Sources */,
+				673D07F41151D7D989D3BBEB64F276AD /* Frameworks */,
+				17A3FFF83C4C74B4A136C913BDF7CB82 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				09EFC9F09D43DD5DD74AF7957D80DB68 /* PBXTargetDependency */,
+			);
+			name = "Pods-HiroyukiVoiceApp-HiroyukiVoiceAppUITests";
+			productName = "Pods-HiroyukiVoiceApp-HiroyukiVoiceAppUITests";
+			productReference = 267AAFDB047C97DCF6AF66DEC2EFA13B /* Pods_HiroyukiVoiceApp_HiroyukiVoiceAppUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A7F7332F1050B42A501616421AC869EB /* PKHUD-PKHUDResources */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0B54C9BD699C138068CB81B8DF9485F /* Build configuration list for PBXNativeTarget "PKHUD-PKHUDResources" */;
+			buildPhases = (
+				82BE878F764B0BC5C491EE02A4879DFB /* Sources */,
+				2DC73663CD7E2A04D6BD7EA0D8175BD6 /* Frameworks */,
+				25DE0D6AB181E40DBFF879D454992B9F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PKHUD-PKHUDResources";
+			productName = "PKHUD-PKHUDResources";
+			productReference = BFCB2D5C605270A32522299AED3B5AE6 /* PKHUDResources.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = EE9C7D52C03CD8AC8815C5CC2DF6AAE0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				364873017BA37260EF589D44B6B73D21 /* PKHUD */,
+				A7F7332F1050B42A501616421AC869EB /* PKHUD-PKHUDResources */,
+				679126C1AD810221ED1BFB738812B6D5 /* Pods-HiroyukiVoiceApp */,
+				850FEC1DCE2032CBE8B4DFB7241A123F /* Pods-HiroyukiVoiceApp-HiroyukiVoiceAppUITests */,
+				14165AAE09969F2BA908826A0FA7B2FE /* Pods-HiroyukiVoiceAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		17A3FFF83C4C74B4A136C913BDF7CB82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25DE0D6AB181E40DBFF879D454992B9F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E97AC7BA800A0DFF5343DAC83D0AB539 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4654AD7D19C51A7EF7138982B5AC53B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A990568A1CEBF0E6CC5AA99BB4BBAA1 /* PKHUDResources.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47392453D4523BCC1EF4B31CAA7F9867 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE3E1232D7CD0A1FD9FE6B691265510A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1C726155FEEC7FD89DE7052C25F0A3A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21627DBE8C2641BE3636FCEBC2144EEA /* Pods-HiroyukiVoiceApp-HiroyukiVoiceAppUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		288A24365694C3DE3AF23AD8278C3934 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA53B8FCA63443119921A9678CA4D95A /* Pods-HiroyukiVoiceApp-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82BE878F764B0BC5C491EE02A4879DFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAA693190E7E902B5A46F8B6A4723E98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA50B00222610BDFDF310B2DF8DCB5E4 /* FrameView.swift in Sources */,
+				4860DECE333B6A4F1456BBF70086683B /* HUD.swift in Sources */,
+				8BF45A41937C28F9FF51F29931B4AADF /* PKHUD-dummy.m in Sources */,
+				B41DDBE6556BC6F7411F22024B4A1BCB /* PKHUD.swift in Sources */,
+				37CCE406D299AE340CB69CB271E10717 /* PKHUDAnimating.swift in Sources */,
+				45C06268B8C6970A182E5C1339FEDD78 /* PKHUDAnimation.swift in Sources */,
+				6FA43D030B219F458A44D30B4130E38B /* PKHUDAssets.swift in Sources */,
+				C445335031CABCF234C80CED2939B8B8 /* PKHUDErrorView.swift in Sources */,
+				702DE1CBD2D4A4CF3CFE4598C0DA499D /* PKHUDProgressView.swift in Sources */,
+				C67FEADA8378EEE41809420D9F6F696E /* PKHUDRotatingImageView.swift in Sources */,
+				7153031DE500788220C79F6BB6CF4718 /* PKHUDSquareBaseView.swift in Sources */,
+				F6CB196C6C4ADAADA4F7594B43644BA1 /* PKHUDSuccessView.swift in Sources */,
+				C9D65B4F291C1AF210A7B58194F8B06E /* PKHUDSystemActivityIndicatorView.swift in Sources */,
+				6FE50D5E056EC4CBEEF355EF08AA1379 /* PKHUDTextView.swift in Sources */,
+				442C183E3045A0CD9819448C1D9F83DE /* PKHUDWideBaseView.swift in Sources */,
+				4FCB352472E7F19B3BDCE6AC2113F68D /* Window.swift in Sources */,
+				4458D4831EFF5B430517A417824B97C8 /* WindowRootViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE7EAEB1F6934B16EF831E5873B61F3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDBE8534F2C2B0E5E30758171DD32BFB /* Pods-HiroyukiVoiceAppTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		09EFC9F09D43DD5DD74AF7957D80DB68 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PKHUD;
+			target = 364873017BA37260EF589D44B6B73D21 /* PKHUD */;
+			targetProxy = 13D78716558C52BC75FF8579F587F00B /* PBXContainerItemProxy */;
+		};
+		58BD15CEDA0549319B0BF534BCA8E9E4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-HiroyukiVoiceApp";
+			target = 679126C1AD810221ED1BFB738812B6D5 /* Pods-HiroyukiVoiceApp */;
+			targetProxy = A9E2CFF657D1BEA44D7B11F2B2578EAF /* PBXContainerItemProxy */;
+		};
+		CC6CAEE41B906087FE19BF92665C85BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PKHUD;
+			target = 364873017BA37260EF589D44B6B73D21 /* PKHUD */;
+			targetProxy = DE36936C8FEA7B9123DDD59A4085E24B /* PBXContainerItemProxy */;
+		};
+		D85D0EE9EB020CE874385F5C0C2D5B31 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "PKHUD-PKHUDResources";
+			target = A7F7332F1050B42A501616421AC869EB /* PKHUD-PKHUDResources */;
+			targetProxy = 1F1105EC8B0CCB6120471BB2ECAFF04C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0DE0133E1BAF3FD79034F16E22B32D59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1A555794666D54F4B54BA4C33C3274F /* PKHUD.release.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/PKHUD";
+				IBSC_MODULE = PKHUD;
+				INFOPLIST_FILE = "Target Support Files/PKHUD/ResourceBundle-PKHUDResources-PKHUD-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				PRODUCT_NAME = PKHUDResources;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		264EEEF3137512DFDF34589DB38C82E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35DF016AA823B5275AA8488F2C07D267 /* PKHUD.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PKHUD/PKHUD-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PKHUD/PKHUD-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/PKHUD/PKHUD.modulemap";
+				PRODUCT_MODULE_NAME = PKHUD;
+				PRODUCT_NAME = PKHUD;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3B7FCDFEB3A8D9576E775A2EDDBD9DC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35DF016AA823B5275AA8488F2C07D267 /* PKHUD.debug.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/PKHUD";
+				IBSC_MODULE = PKHUD;
+				INFOPLIST_FILE = "Target Support Files/PKHUD/ResourceBundle-PKHUDResources-PKHUD-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				PRODUCT_NAME = PKHUDResources;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		5432E65CA8BEEF11C4B10398AE3B226F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A332BEBF322E847085BD3880E36B3D85 /* Pods-HiroyukiVoiceAppTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HiroyukiVoiceAppTests/Pods-HiroyukiVoiceAppTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HiroyukiVoiceAppTests/Pods-HiroyukiVoiceAppTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		71243899B61152433AAE34EE86456EE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		71C2FC513248AF1F3BD310E783E993B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6627AF16CD8957F7B214F4108172BEC3 /* Pods-HiroyukiVoiceApp-HiroyukiVoiceAppUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HiroyukiVoiceApp-HiroyukiVoiceAppUITests/Pods-HiroyukiVoiceApp-HiroyukiVoiceAppUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HiroyukiVoiceApp-HiroyukiVoiceAppUITests/Pods-HiroyukiVoiceApp-HiroyukiVoiceAppUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		75D70EEEA0A456E14F7338A7F342964E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		94B9F6B20A218FBF5160B3EC8E9E0CE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B3A75DB51B7F1DC45539C8323E8D808 /* Pods-HiroyukiVoiceApp.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HiroyukiVoiceApp/Pods-HiroyukiVoiceApp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HiroyukiVoiceApp/Pods-HiroyukiVoiceApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A866FB1E28B160B14A29383C4B6F78C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1813DDAB818661885D37D63549B57FE5 /* Pods-HiroyukiVoiceApp.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HiroyukiVoiceApp/Pods-HiroyukiVoiceApp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HiroyukiVoiceApp/Pods-HiroyukiVoiceApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E24C58B1AFB620A612095DEEBEA64AB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FBD4F410C5E20DCABB98654053E4082D /* Pods-HiroyukiVoiceAppTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HiroyukiVoiceAppTests/Pods-HiroyukiVoiceAppTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HiroyukiVoiceAppTests/Pods-HiroyukiVoiceAppTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E8886BE148557B679CA1F8E825F0F735 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1A555794666D54F4B54BA4C33C3274F /* PKHUD.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PKHUD/PKHUD-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PKHUD/PKHUD-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/PKHUD/PKHUD.modulemap";
+				PRODUCT_MODULE_NAME = PKHUD;
+				PRODUCT_NAME = PKHUD;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EE0CBDEDE42C2EC19E9BC2D104B5EF6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20476B67739FB52C36A9C81F3CEEA4D4 /* Pods-HiroyukiVoiceApp-HiroyukiVoiceAppUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HiroyukiVoiceApp-HiroyukiVoiceAppUITests/Pods-HiroyukiVoiceApp-HiroyukiVoiceAppUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HiroyukiVoiceApp-HiroyukiVoiceAppUITests/Pods-HiroyukiVoiceApp-HiroyukiVoiceAppUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1B0B7FC0B15E409AF42F9E04D7F90FE9 /* Build configuration list for PBXNativeTarget "PKHUD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				264EEEF3137512DFDF34589DB38C82E9 /* Debug */,
+				E8886BE148557B679CA1F8E825F0F735 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75D70EEEA0A456E14F7338A7F342964E /* Debug */,
+				71243899B61152433AAE34EE86456EE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62BAF2BA04788C209D4656680926A949 /* Build configuration list for PBXNativeTarget "Pods-HiroyukiVoiceApp-HiroyukiVoiceAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE0CBDEDE42C2EC19E9BC2D104B5EF6A /* Debug */,
+				71C2FC513248AF1F3BD310E783E993B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8406AD83D535CE0216B2873CF2FBE59C /* Build configuration list for PBXNativeTarget "Pods-HiroyukiVoiceApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A866FB1E28B160B14A29383C4B6F78C6 /* Debug */,
+				94B9F6B20A218FBF5160B3EC8E9E0CE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0B54C9BD699C138068CB81B8DF9485F /* Build configuration list for PBXNativeTarget "PKHUD-PKHUDResources" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B7FCDFEB3A8D9576E775A2EDDBD9DC5 /* Debug */,
+				0DE0133E1BAF3FD79034F16E22B32D59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9443BF387EDF159E16947D08982DE96 /* Build configuration list for PBXNativeTarget "Pods-HiroyukiVoiceAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E24C58B1AFB620A612095DEEBEA64AB0 /* Debug */,
+				5432E65CA8BEEF11C4B10398AE3B226F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
