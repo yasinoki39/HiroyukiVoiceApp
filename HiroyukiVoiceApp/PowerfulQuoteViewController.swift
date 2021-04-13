@@ -13,9 +13,9 @@ class PowerfulQuoteViewController: UIViewController, UICollectionViewDelegate, U
     
     let numbers =  [
         ["うそはうそであると見抜ける人でないと","あなたの感想ですよね?","ウソつくのやめてもらっていいですか?","なんかそういうデータあるんですか?"],
-        ["はい、いいえで答えてください","写像?"/*,"3","4"*/],
-       // ["1","2","3","4"],
-       // ["1","2","3","4"],
+        ["はい、いいえで答えてください","写像?","不快感を覚えた自分に驚いたんだよね","人に対して失礼じゃないですか?"],
+        ["舌を肥やすなメシが不味くなるぞ","彼女というか奥さんというか家内というか","バカな人ほど自分を頭良いと","知能の問題"],
+        ["トゥイッター","ツイッター"],
        // ["1","2","3","4"],
     ]//！、？は半角
     
@@ -30,7 +30,7 @@ class PowerfulQuoteViewController: UIViewController, UICollectionViewDelegate, U
     }
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, referenceSizeForHeaderInSection section: Int) -> CGSize {
-        return .init(width: collectionView.frame.width, height: 10)
+        return .init(width: collectionView.frame.width, height: 20)
     }
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout:UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
@@ -46,7 +46,7 @@ class PowerfulQuoteViewController: UIViewController, UICollectionViewDelegate, U
         let cell = ButtonCollectionView.dequeueReusableCell(withReuseIdentifier: "cellId", for: indexPath) as! ViewCell
         cell.numberLabel.text = numbers[indexPath.section][indexPath.row]
         
-        cell.numberLabel.textColor = .white
+        cell.numberLabel.textColor = .white  //文字の色
             
         return cell
     }
@@ -72,7 +72,7 @@ class PowerfulQuoteViewController: UIViewController, UICollectionViewDelegate, U
         ButtonCollectionView.backgroundColor = .clear
         ButtonCollectionView.contentInset = .init(top: 0, left: 2, bottom: 0, right: 2)
         
-        view.backgroundColor = .gray
+        view.backgroundColor = UIColor(red: 218/255, green: 218/255, blue: 218/255, alpha: 1.0)  //背景色
     }
     
     class ViewCell: UICollectionViewCell {
@@ -83,9 +83,9 @@ class PowerfulQuoteViewController: UIViewController, UICollectionViewDelegate, U
             label.textColor = .white
             label.textAlignment = .center
             label.text = "1"
-            label.font = .boldSystemFont(ofSize: 10)
+            label.font = .boldSystemFont(ofSize: 12)
             label.clipsToBounds = true
-            label.backgroundColor = .blue  //ボタンの色
+            label.backgroundColor = UIColor(red:253/255, green: 95/255, blue: 0/255, alpha: 1.0)  //ボタンの色
             label.lineBreakMode = .byTruncatingTail
             return label
         }()
@@ -95,9 +95,9 @@ class PowerfulQuoteViewController: UIViewController, UICollectionViewDelegate, U
             addSubview(numberLabel)
             
             numberLabel.frame.size = self.frame.size
-            numberLabel.layer.cornerRadius = self.frame.height / 6
-            numberLabel.layer.borderColor = UIColor.darkGray.cgColor
-            numberLabel.layer.borderWidth = 1.5
+            numberLabel.layer.cornerRadius = self.frame.height / 8
+            numberLabel.layer.borderColor = UIColor.darkGray.cgColor //外枠の色
+            numberLabel.layer.borderWidth = 2
             
         }
         
@@ -118,7 +118,7 @@ extension PowerfulQuoteViewController: AVAudioPlayerDelegate {
         do {
             // AVAudioPlayerのインスタンス化
             audioPlayer = try AVAudioPlayer(contentsOf: URL(fileURLWithPath: path))
-
+            
             // AVAudioPlayerのデリゲートをセット
             audioPlayer.delegate = self
 

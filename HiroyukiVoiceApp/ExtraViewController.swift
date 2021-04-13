@@ -12,11 +12,11 @@ import AVFoundation
 class ExtraViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {
     
     let numbers =  [
-        ["うそはうそであると見抜ける人でないと","あなたの感想ですよね?","ウソつくのやめてもらっていいですか?","なんかそういうデータあるんですか?"],
-        ["はい、いいえで答えてください","写像?","3","4"],
-       ["1","2","3","4"],
-       ["1","2","3","4"],
-      // ["1","2","3","4"],
+        ["好きじゃねーよ!","野菜は美味しいから食べるの!","ベーシックインカマー","インターネットが写像であることに"],
+        ["おやすみなさい","ダメだこれ","しゃぞー","既存のコピー"],
+        ["コッコピ","Chinise Go!(中国人消えろ)"],
+        //["1","2","3","4"],
+        // ["1","2","3","4"],
     ]//！、？は半角
     
     var audioPlayer: AVAudioPlayer! //ViewController に AVAudioPlayerのインスタンス を 宣言
@@ -30,7 +30,7 @@ class ExtraViewController: UIViewController, UICollectionViewDelegate, UICollect
     }
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, referenceSizeForHeaderInSection section: Int) -> CGSize {
-        return .init(width: collectionView.frame.width, height: 10)
+        return .init(width: collectionView.frame.width, height: 20)
     }
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout:UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
@@ -72,7 +72,7 @@ class ExtraViewController: UIViewController, UICollectionViewDelegate, UICollect
         ButtonCollectionView.backgroundColor = .clear
         ButtonCollectionView.contentInset = .init(top: 0, left: 2, bottom: 0, right: 2)
         
-        view.backgroundColor = .white
+        view.backgroundColor = UIColor(red: 218/255, green: 218/255, blue: 218/255, alpha: 1.0)  //背景色
     }
     
     class ViewCell: UICollectionViewCell {
@@ -83,9 +83,9 @@ class ExtraViewController: UIViewController, UICollectionViewDelegate, UICollect
             label.textColor = .white
             label.textAlignment = .center
             label.text = "1"
-            label.font = .boldSystemFont(ofSize: 10)
+            label.font = .boldSystemFont(ofSize: 12)
             label.clipsToBounds = true
-            label.backgroundColor = .gray
+            label.backgroundColor = UIColor(red:253/255, green: 95/255, blue: 0/255, alpha: 1.0)  //ボタンの色
             label.lineBreakMode = .byTruncatingTail
             return label
         }()
@@ -95,8 +95,8 @@ class ExtraViewController: UIViewController, UICollectionViewDelegate, UICollect
             addSubview(numberLabel)
             
             numberLabel.frame.size = self.frame.size
-            numberLabel.layer.cornerRadius = self.frame.height / 6
-            numberLabel.layer.borderColor = UIColor.black.cgColor
+            numberLabel.layer.cornerRadius = self.frame.height / 8
+            numberLabel.layer.borderColor = UIColor.darkGray.cgColor //外枠の色
             numberLabel.layer.borderWidth = 1.5
             
             
