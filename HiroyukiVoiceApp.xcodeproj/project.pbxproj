@@ -58,6 +58,7 @@
 		9ED7CB4B26260BF800DA9FDC /* しゃぞー.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9ED7CB4A26260BF800DA9FDC /* しゃぞー.mp3 */; };
 		9ED7CB562626107600DA9FDC /* トゥクトゥクボウシ.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9ED7CB552626107600DA9FDC /* トゥクトゥクボウシ.mp3 */; };
 		9ED7CB622626112A00DA9FDC /* トゥイッター.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9ED7CB612626112A00DA9FDC /* トゥイッター.mp3 */; };
+		9ED7CB672629AFCC00DA9FDC /* ところがどっこい〜.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9ED7CB662629AFCC00DA9FDC /* ところがどっこい〜.mp3 */; };
 		9EDDBACD2625B8E300E3987E /* 160 Hiroyuki speech about 2ch - YouTube.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9EDDBACC2625B8E300E3987E /* 160 Hiroyuki speech about 2ch - YouTube.jpg */; };
 		9EDDBAED2625C48B00E3987E /* 不快感を覚えた自分に驚いたんだよね.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9EDDBAEC2625C48B00E3987E /* 不快感を覚えた自分に驚いたんだよね.mp3 */; };
 		9EDDBAF22625C6BD00E3987E /* 人に対して失礼じゃないですか?.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9EDDBAF12625C6BD00E3987E /* 人に対して失礼じゃないですか?.mp3 */; };
@@ -143,6 +144,7 @@
 		9ED7CB4A26260BF800DA9FDC /* しゃぞー.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "しゃぞー.mp3"; sourceTree = "<group>"; };
 		9ED7CB552626107600DA9FDC /* トゥクトゥクボウシ.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "トゥクトゥクボウシ.mp3"; sourceTree = "<group>"; };
 		9ED7CB612626112A00DA9FDC /* トゥイッター.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "トゥイッター.mp3"; path = "../../../../../Music/トゥイッター.mp3"; sourceTree = "<group>"; };
+		9ED7CB662629AFCC00DA9FDC /* ところがどっこい〜.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "ところがどっこい〜.mp3"; sourceTree = "<group>"; };
 		9EDDBACC2625B8E300E3987E /* 160 Hiroyuki speech about 2ch - YouTube.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "160 Hiroyuki speech about 2ch - YouTube.jpg"; sourceTree = "<group>"; };
 		9EDDBAEC2625C48B00E3987E /* 不快感を覚えた自分に驚いたんだよね.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "不快感を覚えた自分に驚いたんだよね.mp3"; path = "../../../../../Music/不快感を覚えた自分に驚いたんだよね.mp3"; sourceTree = "<group>"; };
 		9EDDBAF12625C6BD00E3987E /* 人に対して失礼じゃないですか?.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "人に対して失礼じゃないですか?.mp3"; sourceTree = "<group>"; };
@@ -303,6 +305,7 @@
 				9ED7CB262626078600DA9FDC /* シャトーブリオン.mp3 */,
 				9ED7CB4226260AD200DA9FDC /* Suis ne pas chinois(中国人じゃないよ).mp3 */,
 				9ED7CACC2625F67000DA9FDC /* 無理です.mp3 */,
+				9ED7CB662629AFCC00DA9FDC /* ところがどっこい〜.mp3 */,
 				9ED7CAA62625E9C700DA9FDC /* ルビアガレガ.mp3 */,
 				9ED7CA452625D8F300DA9FDC /* びっくりするぐらい無能だったんですよね.mp3 */,
 				9ED7CAC22625F03800DA9FDC /* 千と千尋ってそんな面白くないよね.mp3 */,
@@ -485,6 +488,7 @@
 				9ED7CB06262600D400DA9FDC /* バーカ!!.mp3 in Resources */,
 				9ED7CB4B26260BF800DA9FDC /* しゃぞー.mp3 in Resources */,
 				9ED7CA462625D8F300DA9FDC /* びっくりするぐらい無能だったんですよね.mp3 in Resources */,
+				9ED7CB672629AFCC00DA9FDC /* ところがどっこい〜.mp3 in Resources */,
 				9ED7CAAC2625EAE500DA9FDC /* ビブラートひろゆき.mp3 in Resources */,
 				9ED7CAA72625E9C700DA9FDC /* ルビアガレガ.mp3 in Resources */,
 				9ED7CB4326260AD200DA9FDC /* Suis ne pas chinois(中国人じゃないよ).mp3 in Resources */,
