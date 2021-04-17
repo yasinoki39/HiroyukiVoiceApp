@@ -12,11 +12,11 @@ import AVFoundation
 class StreamingViewController_01: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {
     
     let numbers =  [
-        ["トゥクトゥクボウシ","バカなの?","ルビアガレガ","ビブラートひろゆき"],
-        ["ところがどっこい〜","バカなんだから","バカだと思います","バカなんじゃねぇかな"],
-        ["バーカ!!","はずかしぃ!","無理です","びっくりするぐらい無能だったんですよね"],
+        ["バーカ!!","バカなの?","ルビアガレガ","ビブラートひろゆき"],
+        ["バカなんじゃねぇかな","バカなんだから","バカだと思います","トゥクトゥクボウシ"],
+        ["ところがどっこい〜","はずかしぃ!","無理です","嫌です"],
         ["ッウェッウェッウェッw","ぼく、自分が喋った事覚えてないんですよねw","シャトーブリオン","千と千尋ってそんな面白くないよね"],
-        ["Suis ne pas chinois(中国人じゃないよ)","我好西村博之","トラブル避けた方がいいじゃないですか!"],
+        ["Suis ne pas chinois(中国人じゃないよ)","我好西村博之","トラブル避けた方がいいじゃないですか!","びっくりするぐらい無能だったんですよね"],
     ]//！、？は半角
     
     var audioPlayer: AVAudioPlayer! //ViewController に AVAudioPlayerのインスタンス を 宣言

@@ -59,6 +59,9 @@
 		9ED7CB562626107600DA9FDC /* トゥクトゥクボウシ.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9ED7CB552626107600DA9FDC /* トゥクトゥクボウシ.mp3 */; };
 		9ED7CB622626112A00DA9FDC /* トゥイッター.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9ED7CB612626112A00DA9FDC /* トゥイッター.mp3 */; };
 		9ED7CB672629AFCC00DA9FDC /* ところがどっこい〜.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9ED7CB662629AFCC00DA9FDC /* ところがどっこい〜.mp3 */; };
+		9ED7CB75262ADA0500DA9FDC /* 嫌です.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9ED7CB74262ADA0500DA9FDC /* 嫌です.mp3 */; };
+		9ED7CBB5262AE0DF00DA9FDC /* 朝だから起きて～.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9ED7CBB4262AE0DF00DA9FDC /* 朝だから起きて～.mp3 */; };
+		9ED7CBDA262AE62400DA9FDC /* ベーシックインカム.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9ED7CBD9262AE62400DA9FDC /* ベーシックインカム.mp3 */; };
 		9EDDBACD2625B8E300E3987E /* 160 Hiroyuki speech about 2ch - YouTube.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9EDDBACC2625B8E300E3987E /* 160 Hiroyuki speech about 2ch - YouTube.jpg */; };
 		9EDDBAED2625C48B00E3987E /* 不快感を覚えた自分に驚いたんだよね.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9EDDBAEC2625C48B00E3987E /* 不快感を覚えた自分に驚いたんだよね.mp3 */; };
 		9EDDBAF22625C6BD00E3987E /* 人に対して失礼じゃないですか?.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9EDDBAF12625C6BD00E3987E /* 人に対して失礼じゃないですか?.mp3 */; };
@@ -145,6 +148,9 @@
 		9ED7CB552626107600DA9FDC /* トゥクトゥクボウシ.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "トゥクトゥクボウシ.mp3"; sourceTree = "<group>"; };
 		9ED7CB612626112A00DA9FDC /* トゥイッター.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "トゥイッター.mp3"; path = "../../../../../Music/トゥイッター.mp3"; sourceTree = "<group>"; };
 		9ED7CB662629AFCC00DA9FDC /* ところがどっこい〜.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "ところがどっこい〜.mp3"; sourceTree = "<group>"; };
+		9ED7CB74262ADA0500DA9FDC /* 嫌です.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "嫌です.mp3"; sourceTree = "<group>"; };
+		9ED7CBB4262AE0DF00DA9FDC /* 朝だから起きて～.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "朝だから起きて～.mp3"; path = "../../../../../Music/朝だから起きて～.mp3"; sourceTree = "<group>"; };
+		9ED7CBD9262AE62400DA9FDC /* ベーシックインカム.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "ベーシックインカム.mp3"; path = "../../../../../Music/ベーシックインカム.mp3"; sourceTree = "<group>"; };
 		9EDDBACC2625B8E300E3987E /* 160 Hiroyuki speech about 2ch - YouTube.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "160 Hiroyuki speech about 2ch - YouTube.jpg"; sourceTree = "<group>"; };
 		9EDDBAEC2625C48B00E3987E /* 不快感を覚えた自分に驚いたんだよね.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "不快感を覚えた自分に驚いたんだよね.mp3"; path = "../../../../../Music/不快感を覚えた自分に驚いたんだよね.mp3"; sourceTree = "<group>"; };
 		9EDDBAF12625C6BD00E3987E /* 人に対して失礼じゃないですか?.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "人に対して失礼じゃないですか?.mp3"; sourceTree = "<group>"; };
@@ -277,6 +283,7 @@
 				9E711E6F260AA50C00C6E5E7 /* あなたの感想ですよね?.mp3 */,
 				9E711E70260AA50C00C6E5E7 /* 写像?.mp3 */,
 				9ED7CA2E2625D48200DA9FDC /* 彼女というか奥さんというか家内というか.mp3 */,
+				9ED7CBD9262AE62400DA9FDC /* ベーシックインカム.mp3 */,
 				9ED7CA7C2625E1C600DA9FDC /* バカな人ほど自分を頭良いと.mp3 */,
 				9ED7CB142626032700DA9FDC /* 知能の問題.mp3 */,
 				9EDDBAEC2625C48B00E3987E /* 不快感を覚えた自分に驚いたんだよね.mp3 */,
@@ -300,6 +307,7 @@
 				9ED7CAB52625ED8100DA9FDC /* はずかしぃ!.mp3 */,
 				9ED7CA962625E4E500DA9FDC /* バカなの?.mp3 */,
 				9ED7CAE32625FD0F00DA9FDC /* 我好西村博之.mp3 */,
+				9ED7CB74262ADA0500DA9FDC /* 嫌です.mp3 */,
 				9ED7CAAB2625EAE500DA9FDC /* ビブラートひろゆき.mp3 */,
 				9ED7CB05262600D400DA9FDC /* バーカ!!.mp3 */,
 				9ED7CB262626078600DA9FDC /* シャトーブリオン.mp3 */,
@@ -318,6 +326,7 @@
 		9ED7CA102625CFA100DA9FDC /* 配信2 */ = {
 			isa = PBXGroup;
 			children = (
+				9ED7CBB4262AE0DF00DA9FDC /* 朝だから起きて～.mp3 */,
 			);
 			path = "配信2";
 			sourceTree = "<group>";
@@ -459,6 +468,7 @@
 			files = (
 				9ED7CA8F2625E45E00DA9FDC /* バカなんじゃねぇかな.mp3 in Resources */,
 				9ED7CA342625D5CA00DA9FDC /* 好きじゃねーよ!.mp3 in Resources */,
+				9ED7CBB5262AE0DF00DA9FDC /* 朝だから起きて～.mp3 in Resources */,
 				9E711E76260AA50C00C6E5E7 /* 写像?.mp3 in Resources */,
 				9E711E77260AA50C00C6E5E7 /* はい、いいえで答えてください.mp3 in Resources */,
 				9ED7CA972625E4E500DA9FDC /* バカなの?.mp3 in Resources */,
@@ -467,6 +477,7 @@
 				9ED7CACD2625F67000DA9FDC /* 無理です.mp3 in Resources */,
 				9E711E33260A932900C6E5E7 /* LaunchScreen.storyboard in Resources */,
 				9ED7CB3E26260ACD00DA9FDC /* Chinise Go!(中国人消えろ).mp3 in Resources */,
+				9ED7CB75262ADA0500DA9FDC /* 嫌です.mp3 in Resources */,
 				9ED7CAB12625EC6700DA9FDC /* ッウェッウェッウェッw.mp3 in Resources */,
 				9ED7CB622626112A00DA9FDC /* トゥイッター.mp3 in Resources */,
 				9ED7CAD22625F8F600DA9FDC /* インターネットが写像であることに.mp3 in Resources */,
@@ -475,6 +486,7 @@
 				9ED7CA4B2625DD0E00DA9FDC /* ぼく、自分が喋った事覚えてないんですよねw.mp3 in Resources */,
 				9EDDBAFC2625C98400E3987E /* トラブル避けた方がいいじゃないですか!.mp3 in Resources */,
 				9E711E74260AA50C00C6E5E7 /* ウソつくのやめてもらっていいですか?.mp3 in Resources */,
+				9ED7CBDA262AE62400DA9FDC /* ベーシックインカム.mp3 in Resources */,
 				9ED7CB0B2626013D00DA9FDC /* バカだと思います.mp3 in Resources */,
 				9E711E75260AA50C00C6E5E7 /* あなたの感想ですよね?.mp3 in Resources */,
 				9ED7CB562626107600DA9FDC /* トゥクトゥクボウシ.mp3 in Resources */,

@@ -7,7 +7,6 @@ target 'HiroyukiVoiceApp' do
 
   # Pods for HiroyukiVoiceApp
   pod 'PKHUD', '~> 5.0'
-  
 
   target 'HiroyukiVoiceAppTests' do
     inherit! :search_paths

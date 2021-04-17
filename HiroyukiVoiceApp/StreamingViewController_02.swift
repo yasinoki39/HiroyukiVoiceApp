@@ -12,7 +12,7 @@ import AVFoundation
 class StreamingViewController_02: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {
     
     let numbers =  [
-        ["うそはうそであると見抜ける人でないと","あなたの感想ですよね?","ウソつくのやめてもらっていいですか?","なんかそういうデータあるんですか?"],
+        ["朝だから起きて～",]
         //["はい、いいえで答えてください","写像?","3","4"],
         //["1","2","3","4"],
         //["1","2","3","4"],
