@@ -11,7 +11,7 @@ import AVFoundation
 
 class PowerfulQuoteViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {
     
-    let numbers =  [
+    let voice =  [
         ["うそはうそであると見抜ける人でないと","あなたの感想ですよね?","ウソつくのやめてもらっていいですか?","なんかそういうデータあるんですか?"],
         ["はい、いいえで答えてください","写像?","不快感を覚えた自分に驚いたんだよね","人に対して失礼じゃないですか?"],
         ["舌を肥やすなメシが不味くなるぞ","彼女というか奥さんというか家内というか","バカな人ほど自分を頭良いと","知能の問題"],
@@ -22,11 +22,11 @@ class PowerfulQuoteViewController: UIViewController, UICollectionViewDelegate, U
     var audioPlayer: AVAudioPlayer! //ViewController に AVAudioPlayerのインスタンス を 宣言
     
     func numberOfSections(in collectionView: UICollectionView) -> Int {
-        return numbers.count
+        return voice.count
     }
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return numbers[section].count
+        return voice[section].count
     }
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, referenceSizeForHeaderInSection section: Int) -> CGSize {
@@ -44,7 +44,7 @@ class PowerfulQuoteViewController: UIViewController, UICollectionViewDelegate, U
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = ButtonCollectionView.dequeueReusableCell(withReuseIdentifier: "cellId", for: indexPath) as! ViewCell
-        cell.numberLabel.text = numbers[indexPath.section][indexPath.row]
+        cell.numberLabel.text = voice[indexPath.section][indexPath.row]
         
         cell.numberLabel.textColor = .white  //文字の色
             
@@ -52,11 +52,11 @@ class PowerfulQuoteViewController: UIViewController, UICollectionViewDelegate, U
     }
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) { //押された場合、その音声を再生
-        let number = numbers[indexPath.section][indexPath.row]
+        let voiceName = voice[indexPath.section][indexPath.row]
         
-        print("\(number).mp3")
+        print("\(voiceName).mp3")
         
-        playSound(name: number)
+        playSound(name: voiceName)
     }
     
     @IBOutlet weak var ButtonCollectionView: UICollectionView!
