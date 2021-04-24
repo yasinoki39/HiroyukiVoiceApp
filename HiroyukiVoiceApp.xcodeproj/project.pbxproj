@@ -62,7 +62,6 @@
 		9ED7CB75262ADA0500DA9FDC /* 嫌です.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9ED7CB74262ADA0500DA9FDC /* 嫌です.mp3 */; };
 		9ED7CBB5262AE0DF00DA9FDC /* 朝だから起きて～.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9ED7CBB4262AE0DF00DA9FDC /* 朝だから起きて～.mp3 */; };
 		9ED7CBDA262AE62400DA9FDC /* ベーシックインカム.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9ED7CBD9262AE62400DA9FDC /* ベーシックインカム.mp3 */; };
-		9EDDBACD2625B8E300E3987E /* 160 Hiroyuki speech about 2ch - YouTube.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9EDDBACC2625B8E300E3987E /* 160 Hiroyuki speech about 2ch - YouTube.jpg */; };
 		9EDDBAED2625C48B00E3987E /* 不快感を覚えた自分に驚いたんだよね.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9EDDBAEC2625C48B00E3987E /* 不快感を覚えた自分に驚いたんだよね.mp3 */; };
 		9EDDBAF22625C6BD00E3987E /* 人に対して失礼じゃないですか?.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9EDDBAF12625C6BD00E3987E /* 人に対して失礼じゃないですか?.mp3 */; };
 		9EDDBAF72625C7AD00E3987E /* 舌を肥やすなメシが不味くなるぞ.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9EDDBAF62625C7AD00E3987E /* 舌を肥やすなメシが不味くなるぞ.mp3 */; };
@@ -151,7 +150,6 @@
 		9ED7CB74262ADA0500DA9FDC /* 嫌です.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "嫌です.mp3"; sourceTree = "<group>"; };
 		9ED7CBB4262AE0DF00DA9FDC /* 朝だから起きて～.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "朝だから起きて～.mp3"; path = "../../../../../Music/朝だから起きて～.mp3"; sourceTree = "<group>"; };
 		9ED7CBD9262AE62400DA9FDC /* ベーシックインカム.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "ベーシックインカム.mp3"; path = "../../../../../Music/ベーシックインカム.mp3"; sourceTree = "<group>"; };
-		9EDDBACC2625B8E300E3987E /* 160 Hiroyuki speech about 2ch - YouTube.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "160 Hiroyuki speech about 2ch - YouTube.jpg"; sourceTree = "<group>"; };
 		9EDDBAEC2625C48B00E3987E /* 不快感を覚えた自分に驚いたんだよね.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "不快感を覚えた自分に驚いたんだよね.mp3"; path = "../../../../../Music/不快感を覚えた自分に驚いたんだよね.mp3"; sourceTree = "<group>"; };
 		9EDDBAF12625C6BD00E3987E /* 人に対して失礼じゃないですか?.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "人に対して失礼じゃないですか?.mp3"; sourceTree = "<group>"; };
 		9EDDBAF62625C7AD00E3987E /* 舌を肥やすなメシが不味くなるぞ.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "舌を肥やすなメシが不味くなるぞ.mp3"; sourceTree = "<group>"; };
@@ -240,7 +238,6 @@
 				9E711E2F260A932900C6E5E7 /* Assets.xcassets */,
 				9E711E31260A932900C6E5E7 /* LaunchScreen.storyboard */,
 				9E711E34260A932900C6E5E7 /* Info.plist */,
-				9EDDBACC2625B8E300E3987E /* 160 Hiroyuki speech about 2ch - YouTube.jpg */,
 			);
 			path = HiroyukiVoiceApp;
 			sourceTree = "<group>";
@@ -505,7 +502,6 @@
 				9ED7CAA72625E9C700DA9FDC /* ルビアガレガ.mp3 in Resources */,
 				9ED7CB4326260AD200DA9FDC /* Suis ne pas chinois(中国人じゃないよ).mp3 in Resources */,
 				9ED7CB1D2626040600DA9FDC /* 既存のコピー.mp3 in Resources */,
-				9EDDBACD2625B8E300E3987E /* 160 Hiroyuki speech about 2ch - YouTube.jpg in Resources */,
 				9ED7CAEE2625FFCB00DA9FDC /* おやすみなさい.mp3 in Resources */,
 				9ED7CAC32625F03800DA9FDC /* 千と千尋ってそんな面白くないよね.mp3 in Resources */,
 				9E711E78260AA50C00C6E5E7 /* なんかそういうデータあるんですか?.mp3 in Resources */,
