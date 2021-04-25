@@ -12,7 +12,7 @@ import AVFoundation
 class StreamingViewController_02: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {
     
     let voice =  [
-        ["朝だから起きて～",]
+        ["朝だから起きて～","",""]
         //["はい、いいえで答えてください","写像?","3","4"],
         //["1","2","3","4"],
         //["1","2","3","4"],

@@ -15,7 +15,7 @@ class PowerfulQuoteViewController: UIViewController, UICollectionViewDelegate, U
         ["うそはうそであると見抜ける人でないと","あなたの感想ですよね?","ウソつくのやめてもらっていいですか?","なんかそういうデータあるんですか?"],
         ["はい、いいえで答えてください","写像?","不快感を覚えた自分に驚いたんだよね","人に対して失礼じゃないですか?"],
         ["舌を肥やすなメシが不味くなるぞ","彼女というか奥さんというか家内というか","バカな人ほど自分を頭良いと","知能の問題"],
-        ["トゥイッター","ツイッター","ベーシックインカム"],
+        ["トゥイッター","ツイッター","ベーシックインカム","僕の知り合い"],
        // ["1","2","3","4"],
     ]//！、？は半角
     
@@ -30,7 +30,7 @@ class PowerfulQuoteViewController: UIViewController, UICollectionViewDelegate, U
     }
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, referenceSizeForHeaderInSection section: Int) -> CGSize {
-        return .init(width: collectionView.frame.width, height: 20)
+        return .init(width: collectionView.frame.width, height: 18)
     }
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout:UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
