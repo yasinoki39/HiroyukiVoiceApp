@@ -94,13 +94,11 @@ class StreamingViewController_01: UIViewController, UICollectionViewDelegate, UI
         override init(frame: CGRect){
             super.init(frame: frame)
             addSubview(numberLabel)
-            
+
             numberLabel.frame.size = self.frame.size
             numberLabel.layer.cornerRadius = self.frame.height / 8
             numberLabel.layer.borderColor = UIColor.darkGray.cgColor //外枠の色
             numberLabel.layer.borderWidth = 1.5
-            
-            
         }
         
         required init?(coder: NSCoder) {

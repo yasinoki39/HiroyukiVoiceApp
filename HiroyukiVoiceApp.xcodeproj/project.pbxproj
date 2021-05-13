@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		06EB80DD94FBE16A847E9E6B /* Pods_HiroyukiVoiceAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E9882D89FA1D2CDB834F63D /* Pods_HiroyukiVoiceAppTests.framework */; };
 		2E2139490E31EFC80E0BB10B /* Pods_HiroyukiVoiceApp_HiroyukiVoiceAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CB12662C7F2AB047DBA834D /* Pods_HiroyukiVoiceApp_HiroyukiVoiceAppUITests.framework */; };
+		9E40094F264A98C0001F0BED /* OtherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E40094E264A98C0001F0BED /* OtherViewController.swift */; };
 		9E711E27260A932900C6E5E7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E711E26260A932900C6E5E7 /* AppDelegate.swift */; };
 		9E711E29260A932900C6E5E7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E711E28260A932900C6E5E7 /* SceneDelegate.swift */; };
 		9E711E2E260A932900C6E5E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E711E2C260A932900C6E5E7 /* Main.storyboard */; };
@@ -92,6 +93,7 @@
 		359BF802DF870DD51912B482 /* Pods-HiroyukiVoiceAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HiroyukiVoiceAppTests.release.xcconfig"; path = "Target Support Files/Pods-HiroyukiVoiceAppTests/Pods-HiroyukiVoiceAppTests.release.xcconfig"; sourceTree = "<group>"; };
 		4E9882D89FA1D2CDB834F63D /* Pods_HiroyukiVoiceAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HiroyukiVoiceAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CB12662C7F2AB047DBA834D /* Pods_HiroyukiVoiceApp_HiroyukiVoiceAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HiroyukiVoiceApp_HiroyukiVoiceAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E40094E264A98C0001F0BED /* OtherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherViewController.swift; sourceTree = "<group>"; };
 		9E711E23260A932900C6E5E7 /* HiroyukiVoiceApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HiroyukiVoiceApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E711E26260A932900C6E5E7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9E711E28260A932900C6E5E7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -234,6 +236,7 @@
 				9E711E28260A932900C6E5E7 /* SceneDelegate.swift */,
 				9E711E6C260AA50C00C6E5E7 /* HiroyukiVoiceAudio */,
 				9E711E2C260A932900C6E5E7 /* Main.storyboard */,
+				9E40094E264A98C0001F0BED /* OtherViewController.swift */,
 				9E711E82260AB0AF00C6E5E7 /* StreamingViewController_02.swift */,
 				9E711E7D260AA61500C6E5E7 /* StreamingViewController_01.swift */,
 				9E711E64260A996900C6E5E7 /* PowerfulQuoteViewController.swift */,
@@ -645,6 +648,7 @@
 			files = (
 				9E711E7E260AA61500C6E5E7 /* StreamingViewController_01.swift in Sources */,
 				9E711E27260A932900C6E5E7 /* AppDelegate.swift in Sources */,
+				9E40094F264A98C0001F0BED /* OtherViewController.swift in Sources */,
 				9E711E29260A932900C6E5E7 /* SceneDelegate.swift in Sources */,
 				9E711E83260AB0AF00C6E5E7 /* StreamingViewController_02.swift in Sources */,
 				9E711E65260A996900C6E5E7 /* PowerfulQuoteViewController.swift in Sources */,

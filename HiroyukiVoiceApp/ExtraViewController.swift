@@ -98,8 +98,6 @@ class ExtraViewController: UIViewController, UICollectionViewDelegate, UICollect
             numberLabel.layer.cornerRadius = self.frame.height / 8
             numberLabel.layer.borderColor = UIColor.darkGray.cgColor //外枠の色
             numberLabel.layer.borderWidth = 1.5
-            
-            
         }
         
         required init?(coder: NSCoder) {

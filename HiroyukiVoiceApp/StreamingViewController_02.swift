@@ -72,7 +72,6 @@ class StreamingViewController_02: UIViewController, UICollectionViewDelegate, UI
         ButtonHeightConstraint.constant = view.frame.width * 1.4
         ButtonCollectionView.backgroundColor = .clear
         ButtonCollectionView.contentInset = .init(top: 0, left: 2, bottom: 0, right: 2)
-        
         view.backgroundColor = UIColor(red: 218/255, green: 218/255, blue: 218/255, alpha: 1.0)  //背景色
     }
     
@@ -99,8 +98,6 @@ class StreamingViewController_02: UIViewController, UICollectionViewDelegate, UI
             numberLabel.layer.cornerRadius = self.frame.height / 8
             numberLabel.layer.borderColor = UIColor.darkGray.cgColor //外枠の色
             numberLabel.layer.borderWidth = 1.5
-            
-            
         }
         
         required init?(coder: NSCoder) {
