@@ -14,10 +14,10 @@ class ExtraViewController: UIViewController, UICollectionViewDelegate, UICollect
     let voice =  [
         ["好きじゃねーよ!","野菜は美味しいから食べるの!","ベーシックインカマー","インターネットが写像であることに"],
         ["おやすみなさい","ダメだこれ","しゃぞー","既存のコピー"],
-        ["コッコピ","Chinise Go!(中国人消えろ)"],
+        ["コッコピ","Chinise Go!(中国人消えろ)","ちょ、ちょっと聞けよお前!","もう帰るわ!"],
         //["1","2","3","4"],
         // ["1","2","3","4"],
-    ]//！、？は半角
+    ]//？は全角
     
     var audioPlayer: AVAudioPlayer! //ViewController に AVAudioPlayerのインスタンス を 宣言
     

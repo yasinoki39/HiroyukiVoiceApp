@@ -118,8 +118,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M78-Uh-zT9">
-                                <rect key="frame" x="10" y="194" width="370" height="60"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M78-Uh-zT9">
+                                <rect key="frame" x="10" y="144" width="370" height="60"/>
                                 <color key="backgroundColor" systemColor="systemGreenColor"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="60" id="upp-IC-h7L"/>
@@ -137,7 +137,7 @@ ICAgIOODrOODk+ODpeODvOODu+aEn+aDs+OBiumhmOOBhOOBl+OBvuOBmRHigKgo44Gd44KM44Gj44Gm
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DKQ-Nd-mBj">
-                                <rect key="frame" x="10" y="354" width="370" height="60"/>
+                                <rect key="frame" x="10" y="464" width="370" height="60"/>
                                 <color key="backgroundColor" systemColor="systemGreenColor"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="60" id="5Tp-xb-pqR"/>
@@ -150,24 +150,43 @@ ICAgIOODrOODk+ODpeODvOODu+aEn+aDs+OBiumhmOOBhOOBl+OBvuOBmRHigKgo44Gd44KM44Gj44Gm
                                     <action selector="PrivacyPolicyButton:" destination="W9Z-5V-kXG" eventType="touchUpInside" id="9kf-8O-fOd"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="A5L-px-2KD">
+                                <rect key="frame" x="10" y="304" width="370" height="60"/>
+                                <color key="backgroundColor" systemColor="systemGreenColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="cLM-lG-OYV"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                <state key="normal">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="TwitterShareButton:" destination="W9Z-5V-kXG" eventType="touchUpInside" id="7OS-JC-Kcb"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="9xT-3F-nA5"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="DKQ-Nd-mBj" firstAttribute="leading" secondItem="9xT-3F-nA5" secondAttribute="leading" constant="10" id="1Eo-zB-K1w"/>
-                            <constraint firstItem="M78-Uh-zT9" firstAttribute="top" secondItem="9xT-3F-nA5" secondAttribute="top" constant="150" id="8zk-bP-QI8"/>
-                            <constraint firstItem="DKQ-Nd-mBj" firstAttribute="top" secondItem="M78-Uh-zT9" secondAttribute="bottom" constant="100" id="X7E-Jf-4F1"/>
-                            <constraint firstItem="9xT-3F-nA5" firstAttribute="trailing" secondItem="M78-Uh-zT9" secondAttribute="trailing" constant="10" id="dbO-Do-8Hp"/>
-                            <constraint firstItem="M78-Uh-zT9" firstAttribute="leading" secondItem="9xT-3F-nA5" secondAttribute="leading" constant="10" id="oZ3-bV-qjY"/>
+                            <constraint firstItem="M78-Uh-zT9" firstAttribute="centerX" secondItem="R6h-a0-O8Y" secondAttribute="centerX" id="48G-Qd-g4i"/>
+                            <constraint firstItem="A5L-px-2KD" firstAttribute="leading" secondItem="9xT-3F-nA5" secondAttribute="leading" constant="10" id="5D0-k0-IIY"/>
+                            <constraint firstItem="DKQ-Nd-mBj" firstAttribute="top" secondItem="A5L-px-2KD" secondAttribute="bottom" constant="100" id="5W1-SW-VCA"/>
+                            <constraint firstItem="A5L-px-2KD" firstAttribute="centerX" secondItem="R6h-a0-O8Y" secondAttribute="centerX" id="CLV-D7-9h0"/>
+                            <constraint firstItem="M78-Uh-zT9" firstAttribute="leading" secondItem="9xT-3F-nA5" secondAttribute="leading" constant="10" id="Pm9-Qa-1gQ"/>
+                            <constraint firstItem="M78-Uh-zT9" firstAttribute="top" secondItem="9xT-3F-nA5" secondAttribute="top" constant="100" id="Zxf-DG-bdz"/>
+                            <constraint firstItem="9xT-3F-nA5" firstAttribute="trailing" secondItem="A5L-px-2KD" secondAttribute="trailing" constant="10" id="cbV-uj-mUZ"/>
+                            <constraint firstItem="A5L-px-2KD" firstAttribute="top" secondItem="M78-Uh-zT9" secondAttribute="bottom" constant="100" id="d4V-x8-x7H"/>
+                            <constraint firstItem="9xT-3F-nA5" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="M78-Uh-zT9" secondAttribute="trailing" constant="10" id="ee2-nu-h91"/>
                             <constraint firstItem="DKQ-Nd-mBj" firstAttribute="centerX" secondItem="R6h-a0-O8Y" secondAttribute="centerX" id="qVd-Hd-dIr"/>
-                            <constraint firstItem="M78-Uh-zT9" firstAttribute="centerX" secondItem="R6h-a0-O8Y" secondAttribute="centerX" id="vUl-Dp-f7b"/>
                             <constraint firstItem="9xT-3F-nA5" firstAttribute="trailing" secondItem="DKQ-Nd-mBj" secondAttribute="trailing" constant="10" id="xSJ-ZP-LGP"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="その他" image="gearshape" catalog="system" id="mWs-7s-Me1"/>
+                    <tabBarItem key="tabBarItem" title="その他" image="questionmark" catalog="system" id="mWs-7s-Me1"/>
                     <connections>
                         <outlet property="PrivacyPolicyButton" destination="DKQ-Nd-mBj" id="Bjf-9E-3Uz"/>
                         <outlet property="ReviewButton" destination="M78-Uh-zT9" id="dbm-co-sTH"/>
+                        <outlet property="TwitterShareButton" destination="A5L-px-2KD" id="gil-hW-hBi"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="e7L-vM-tbQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -298,7 +317,7 @@ ICAgIOODrOODk+ODpeODvOODu+aEn+aDs+OBiumhmOOBhOOBl+OBvuOBmRHigKgo44Gd44KM44Gj44Gm
         </scene>
     </scenes>
     <resources>
-        <image name="gearshape" catalog="system" width="128" height="121"/>
+        <image name="questionmark" catalog="system" width="96" height="128"/>
         <image name="speaker.wave.2" catalog="system" width="128" height="90"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

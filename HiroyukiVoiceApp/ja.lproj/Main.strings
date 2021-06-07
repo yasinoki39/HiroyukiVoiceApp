@@ -1,0 +1,18 @@
+
+/* Class = "UITabBarItem"; title = "配信２"; ObjectID = "3CC-bN-4Fl"; */
+"3CC-bN-4Fl.title" = "配信２";
+
+/* Class = "UITabBarItem"; title = "配信1"; ObjectID = "68z-ub-c9n"; */
+"68z-ub-c9n.title" = "配信1";
+
+/* Class = "UIButton"; normalTitle = "    レビュー・感想お願いします (それってあなたの感想ですよね?)"; ObjectID = "M78-Uh-zT9"; */
+"M78-Uh-zT9.normalTitle" = "    レビュー・感想お願いします (それってあなたの感想ですよね?)";
+
+/* Class = "UITabBarItem"; title = "Ex"; ObjectID = "kUh-3m-C3X"; */
+"kUh-3m-C3X.title" = "Ex";
+
+/* Class = "UITabBarItem"; title = "その他"; ObjectID = "mWs-7s-Me1"; */
+"mWs-7s-Me1.title" = "その他";
+
+/* Class = "UITabBarItem"; title = "名言"; ObjectID = "uKc-le-OUp"; */
+"uKc-le-OUp.title" = "名言";
