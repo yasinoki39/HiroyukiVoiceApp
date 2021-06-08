@@ -35,6 +35,7 @@
 		9E711E7E260AA61500C6E5E7 /* StreamingViewController_01.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E711E7D260AA61500C6E5E7 /* StreamingViewController_01.swift */; };
 		9E711E83260AB0AF00C6E5E7 /* StreamingViewController_02.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E711E82260AB0AF00C6E5E7 /* StreamingViewController_02.swift */; };
 		9E711E88260AB2C000C6E5E7 /* ExtraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E711E87260AB2C000C6E5E7 /* ExtraViewController.swift */; };
+		9E7A3D45266F62A0006EDF04 /* 打ち合わせ戻っていいですかw.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9E7A3D44266F62A0006EDF04 /* 打ち合わせ戻っていいですかw.mp3 */; };
 		9EBB4BAB263555EF0090B015 /* 僕の知り合い.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9EBB4BAA263555EF0090B015 /* 僕の知り合い.mp3 */; };
 		9ED7CA222625D06500DA9FDC /* ツイッター.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9ED7CA212625D06500DA9FDC /* ツイッター.mp3 */; };
 		9ED7CA2F2625D48200DA9FDC /* 彼女というか奥さんというか家内というか.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9ED7CA2E2625D48200DA9FDC /* 彼女というか奥さんというか家内というか.mp3 */; };
@@ -135,6 +136,7 @@
 		9E711E7D260AA61500C6E5E7 /* StreamingViewController_01.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreamingViewController_01.swift; sourceTree = "<group>"; };
 		9E711E82260AB0AF00C6E5E7 /* StreamingViewController_02.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreamingViewController_02.swift; sourceTree = "<group>"; };
 		9E711E87260AB2C000C6E5E7 /* ExtraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtraViewController.swift; sourceTree = "<group>"; };
+		9E7A3D44266F62A0006EDF04 /* 打ち合わせ戻っていいですかw.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "打ち合わせ戻っていいですかw.mp3"; sourceTree = "<group>"; };
 		9EBB4BAA263555EF0090B015 /* 僕の知り合い.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "僕の知り合い.mp3"; path = "../../../../../Music/僕の知り合い.mp3"; sourceTree = "<group>"; };
 		9ED7CA212625D06500DA9FDC /* ツイッター.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "ツイッター.mp3"; sourceTree = "<group>"; };
 		9ED7CA2E2625D48200DA9FDC /* 彼女というか奥さんというか家内というか.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "彼女というか奥さんというか家内というか.mp3"; sourceTree = "<group>"; };
@@ -349,6 +351,7 @@
 			children = (
 				9E647CDB2664CBA400F05466 /* 今家ですよね？どこに帰るんですかwww.mp3 */,
 				9E647CE3266A6B8100F05466 /* ﾌｰﾝ^3.mp3 */,
+				9E7A3D44266F62A0006EDF04 /* 打ち合わせ戻っていいですかw.mp3 */,
 				9E647CDF266A667B00F05466 /* おっさんがだらだら.mp3 */,
 				9E647CED266B9F7C00F05466 /* お、おうw.mp3 */,
 				9E647CEB266A6E7C00F05466 /* ひろゆき増殖.mp3 */,
@@ -499,6 +502,7 @@
 				9ED7CA8F2625E45E00DA9FDC /* バカなんじゃねぇかな.mp3 in Resources */,
 				9E647CD82664C4C600F05466 /* ちょ、ちょっと聞けよお前!.mp3 in Resources */,
 				9ED7CA342625D5CA00DA9FDC /* 好きじゃねーよ!.mp3 in Resources */,
+				9E7A3D45266F62A0006EDF04 /* 打ち合わせ戻っていいですかw.mp3 in Resources */,
 				9ED7CBB5262AE0DF00DA9FDC /* 朝だから起きて～.mp3 in Resources */,
 				9E711E76260AA50C00C6E5E7 /* 写像？.mp3 in Resources */,
 				9E711E77260AA50C00C6E5E7 /* はい、いいえで答えてください.mp3 in Resources */,
@@ -871,6 +875,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = L27GL78CVB;
 				INFOPLIST_FILE = HiroyukiVoiceApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -891,6 +896,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = L27GL78CVB;
 				INFOPLIST_FILE = HiroyukiVoiceApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

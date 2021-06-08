@@ -8,6 +8,7 @@
 import Foundation
 import UIKit
 
+@available(iOS 10.0, *)
 class OtherViewController: UIViewController{
     @IBOutlet weak var ReviewButton: UIButton!
     @IBOutlet weak var TwitterShareButton: UIButton!
@@ -16,7 +17,7 @@ class OtherViewController: UIViewController{
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = UIColor(red: 218/255, green: 218/255, blue: 218/255, alpha: 1.0) //背景色
-            
+        
         let ButtonColor = UIColor(red:253/255, green: 95/255, blue: 0/255, alpha: 1.0) //ボタンの色
         
         ReviewButton.titleLabel?.numberOfLines = 0
@@ -45,16 +46,16 @@ class OtherViewController: UIViewController{
     
     @IBAction func ReviewButton(_ sender: Any) {
         if let AppStoreReviewUrl = URL(string: "https://yasinoki39.github.io/FruitsQuiz_PrivacyPolicy/"){
-                UIApplication.shared.open(AppStoreReviewUrl)
-            } else {
-                // Fallback on earlier versions
-            }  //ボタンが押されたらプライバシーポリシーURLへ飛ぶ
+            UIApplication.shared.open(AppStoreReviewUrl)
+        } else {
+            // Fallback on earlier versions
+        }  //ボタンが押されたらプライバシーポリシーURLへ飛ぶ
     }
     
     @IBAction func TwitterShareButton(_ sender: Any) {
         //シェアするテキストを作成
-        let text = "問正解しました"
-        let hashTag = "ひろゆきボイス"
+        let text = "なんだろう"
+        let hashTag = "#ひろゆきボイス"
         let completedText = text + "\n" + hashTag
         
         //作成したテキストをエンコード
@@ -63,20 +64,16 @@ class OtherViewController: UIViewController{
         //エンコードしたテキストをURLに繋げ、URLを開いてツイート画面を表示させる
         if let encodedText = encodedText,
            let url = URL(string: "https://twitter.com/intent/tweet?text=\(encodedText)") {
-            if #available(iOS 10.0, *) {
-                UIApplication.shared.open(url)
-            } else {
-                // Fallback on earlier versions
-            }
+            UIApplication.shared.open(url)
         }
         
     }
     
     @IBAction func PrivacyPolicyButton(_ sender: Any) {
         if let PrivacyPolicyUrl = URL(string: "https://yasinoki39.github.io/HiroyukiVoiceApp_PrivacyPolicy/"){
-                UIApplication.shared.open(PrivacyPolicyUrl)
-            } else {
-                // Fallback on earlier versions
-            }  //ボタンが押されたらプライバシーポリシーURLへ飛ぶ
-        }
+            UIApplication.shared.open(PrivacyPolicyUrl)
+        } else {
+            // Fallback on earlier versions
+        }  //ボタンが押されたらプライバシーポリシーURLへ飛ぶ
+    }
 }
