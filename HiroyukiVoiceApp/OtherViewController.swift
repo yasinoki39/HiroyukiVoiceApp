@@ -55,7 +55,7 @@ class OtherViewController: UIViewController{
     @IBAction func TwitterShareButton(_ sender: Any) {
         //シェアするテキストを作成
         let text = "なんだろう。。。"
-        let hashTag = "#ひろゆきボイス"
+        let hashTag = "#ひろゆきボタン"
         let completedText = text + "\n" + hashTag
         
         //作成したテキストをエンコード
