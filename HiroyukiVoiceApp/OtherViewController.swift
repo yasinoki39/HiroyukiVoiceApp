@@ -45,7 +45,9 @@ class OtherViewController: UIViewController{
     }
     
     @IBAction func ReviewButton(_ sender: Any) {
-        if let AppStoreReviewUrl = URL(string: "https://yasinoki39.github.io/FruitsQuiz_PrivacyPolicy/"){
+        let appStoreUrl = "https://apps.apple.com/jp/app/%E3%81%B2%E3%82%8D%E3%82%86%E3%81%8D%E3%83%9C%E3%82%BF%E3%83%B3/id1571274647"
+        
+        if let AppStoreReviewUrl = URL(string: appStoreUrl){
             UIApplication.shared.open(AppStoreReviewUrl)
         } else {
             // Fallback on earlier versions
@@ -56,7 +58,8 @@ class OtherViewController: UIViewController{
         //シェアするテキストを作成
         let text = "なんだろう。。。"
         let hashTag = "#ひろゆきボタン"
-        let completedText = text + "\n" + hashTag
+        let appStoreUrl = "https://apps.apple.com/jp/app/%E3%81%B2%E3%82%8D%E3%82%86%E3%81%8D%E3%83%9C%E3%82%BF%E3%83%B3/id1571274647"
+        let completedText = text + "\n" + hashTag + "\n\n" + appStoreUrl 
         
         //作成したテキストをエンコード
         let encodedText = completedText.addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed)
