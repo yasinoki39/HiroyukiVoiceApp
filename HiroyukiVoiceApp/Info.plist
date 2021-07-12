@@ -16,6 +16,8 @@
 	<array>
 		<string>ja</string>
 	</array>
+	<key>GADApplicationIdentifier</key>
+	<string>ca-app-pub-7776680860513273~4993579250</string>
 	<key>CFBundleName</key>
 	<string>ひろゆきボタン</string>
 	<key>CFBundlePackageType</key>

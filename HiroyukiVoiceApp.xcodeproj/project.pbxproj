@@ -251,15 +251,15 @@
 		9E711E25260A932900C6E5E7 /* HiroyukiVoiceApp */ = {
 			isa = PBXGroup;
 			children = (
-				9E711E87260AB2C000C6E5E7 /* ExtraViewController.swift */,
 				9E711E26260A932900C6E5E7 /* AppDelegate.swift */,
 				9E711E28260A932900C6E5E7 /* SceneDelegate.swift */,
 				9E711E6C260AA50C00C6E5E7 /* HiroyukiVoiceAudio */,
 				9E711E2C260A932900C6E5E7 /* Main.storyboard */,
 				9E40094E264A98C0001F0BED /* OtherViewController.swift */,
+				9E711E64260A996900C6E5E7 /* PowerfulQuoteViewController.swift */,
 				9E711E82260AB0AF00C6E5E7 /* StreamingViewController_02.swift */,
 				9E711E7D260AA61500C6E5E7 /* StreamingViewController_01.swift */,
-				9E711E64260A996900C6E5E7 /* PowerfulQuoteViewController.swift */,
+				9E711E87260AB2C000C6E5E7 /* ExtraViewController.swift */,
 				9E711E2F260A932900C6E5E7 /* Assets.xcassets */,
 				9E711E31260A932900C6E5E7 /* LaunchScreen.storyboard */,
 				9E711E34260A932900C6E5E7 /* Info.plist */,
