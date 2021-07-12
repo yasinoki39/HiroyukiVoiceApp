@@ -7,6 +7,9 @@ target 'HiroyukiVoiceApp' do
 
   # Pods for HiroyukiVoiceApp
   pod 'PKHUD', '~> 5.0'
+  
+  #広告のやつ
+  #pod 'Google-Mobile-Ads-SDK'
 
   target 'HiroyukiVoiceAppTests' do
     inherit! :search_paths
