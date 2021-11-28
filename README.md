@@ -1,3 +1,3 @@
 # HiroyukiVoiceApp
 
-「ひろゆきボタン」用のプライバシーポリシーサイト
+This 「HiroyukiButton」Project
