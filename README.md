@@ -8,7 +8,7 @@
 
 ## 機能
  
-- 機能(button,label,TabBarなど)
+- 機能(button,label,TabBar,CollectionViewなど)
  
 ## 必要要件
  
