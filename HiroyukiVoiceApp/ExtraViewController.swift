@@ -106,7 +106,7 @@ class ExtraViewController: UIViewController, UICollectionViewDelegate, UICollect
     }
 }
 
-
+//音声再生処理
 extension ExtraViewController: AVAudioPlayerDelegate {
     func playSound(name: String) {//音楽再生するメソッド
         guard let path = Bundle.main.path(forResource: name, ofType: "mp3") else {

@@ -9,9 +9,9 @@ import Foundation
 import UIKit
 import AVFoundation
 
-class PowerfulQuoteViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {
+class PowerfulQuoteViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout{
     
-    let voice =  [
+    private let voice =  [
         ["うそはうそであると見抜ける人でないと","あなたの感想ですよね?","ウソつくのやめてもらっていいですか?","なんかそういうデータあるんですか?"],
         ["はい、いいえで答えてください","写像？","不快感を覚えた自分に驚いたんだよね","人に対して失礼じゃないですか?"],
         ["舌を肥やすなメシが不味くなるぞ","彼女というか奥さんというか家内というか","バカな人ほど自分を頭良いと","知能の問題"],
@@ -25,6 +25,7 @@ class PowerfulQuoteViewController: UIViewController, UICollectionViewDelegate, U
         return voice.count
     }
     
+    //numberOfItemsInSection:セクションの中のセルの数を返す
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return voice[section].count
     }
@@ -42,6 +43,7 @@ class PowerfulQuoteViewController: UIViewController, UICollectionViewDelegate, U
         return 14
     }
     
+    //cellForItemAt: セルに表示する内容を記載する
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = ButtonCollectionView.dequeueReusableCell(withReuseIdentifier: "cellId", for: indexPath) as! ViewCell
         cell.numberLabel.text = voice[indexPath.section][indexPath.row]
@@ -51,11 +53,17 @@ class PowerfulQuoteViewController: UIViewController, UICollectionViewDelegate, U
         return cell
     }
     
-    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) { //押された場合、その音声を再生
+    //didSelectItemAt: セルがタップ場合
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         let voiceName = voice[indexPath.section][indexPath.row]
         
         print("\(voiceName).mp3")
         
+        /*
+        let a = AudioPlay()
+        
+        a.audioPlay(audioName: voiceName)
+        */
         playSound(name: voiceName)
     }
     
@@ -106,9 +114,9 @@ class PowerfulQuoteViewController: UIViewController, UICollectionViewDelegate, U
     }
 }
 
-
+//音声再生処理
 extension PowerfulQuoteViewController: AVAudioPlayerDelegate {
-    func playSound(name: String) {//音楽再生するメソッド
+    private func playSound(name: String) {//音声再生するメソッド
         guard let path = Bundle.main.path(forResource: name, ofType: "mp3") else {
             print("音源ファイルが見つかりません")
             return
@@ -122,10 +130,11 @@ extension PowerfulQuoteViewController: AVAudioPlayerDelegate {
             audioPlayer.delegate = self
 
             // 音声の再生
+            /*
             if  audioPlayer.isPlaying { //クラッシュを防ぐため
                 audioPlayer.stop()
                 audioPlayer.currentTime = 0
-            }
+            }*/
             
             audioPlayer.play() //音声再生
         
@@ -134,3 +143,4 @@ extension PowerfulQuoteViewController: AVAudioPlayerDelegate {
         }
     }
 }
+

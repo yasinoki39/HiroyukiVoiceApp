@@ -51,7 +51,8 @@ class StreamingViewController_01: UIViewController, UICollectionViewDelegate, UI
         return cell
     }
     
-    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) { //押された場合、その音声を再生
+    //押された場合、その音声を再生
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         let voiceName = voice[indexPath.section][indexPath.row]
         
         print("\(voiceName).mp3")
@@ -107,6 +108,7 @@ class StreamingViewController_01: UIViewController, UICollectionViewDelegate, UI
     }
 }
 
+//音声再生処理
 extension StreamingViewController_01: AVAudioPlayerDelegate {
     func playSound(name: String) {//音楽再生するメソッド
         guard let path = Bundle.main.path(forResource: name, ofType: "mp3") else {

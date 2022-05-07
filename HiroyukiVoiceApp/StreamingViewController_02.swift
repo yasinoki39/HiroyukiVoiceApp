@@ -14,7 +14,7 @@ class StreamingViewController_02: UIViewController, UICollectionViewDelegate, UI
     let voice =  [
         ["朝だから起きて～","今家ですよね？どこに帰るんですかwww","芸能人崩れなのよ","おっさんがだらだら"],
         ["ﾌｰﾝ^3","ひろゆき増殖","お、おうw","打ち合わせ戻っていいですかw"]
-        //["1","2","3","4"],
+        //["1","2","3"]
         //["1","2","3","4"],
         //["1","2","3","4"],
     ]//？は全角
@@ -106,7 +106,7 @@ class StreamingViewController_02: UIViewController, UICollectionViewDelegate, UI
     }
 }
 
-
+//音声再生処理
 extension StreamingViewController_02: AVAudioPlayerDelegate {
     func playSound(name: String) {//音楽再生するメソッド
         guard let path = Bundle.main.path(forResource: name, ofType: "mp3") else {
@@ -134,3 +134,4 @@ extension StreamingViewController_02: AVAudioPlayerDelegate {
         }
     }
 }
+

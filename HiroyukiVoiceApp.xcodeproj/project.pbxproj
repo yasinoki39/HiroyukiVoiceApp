@@ -16,7 +16,6 @@
 		9E647CDE2664D0B800F05466 /* 芸能人崩れなのよ.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9E647CDD2664D0B800F05466 /* 芸能人崩れなのよ.mp3 */; };
 		9E647CE0266A667B00F05466 /* おっさんがだらだら.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9E647CDF266A667B00F05466 /* おっさんがだらだら.mp3 */; };
 		9E647CE4266A6B8100F05466 /* ﾌｰﾝ^3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9E647CE3266A6B8100F05466 /* ﾌｰﾝ^3.mp3 */; };
-		9E647CEC266A6E7C00F05466 /* ひろゆき増殖.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9E647CEB266A6E7C00F05466 /* ひろゆき増殖.mp3 */; };
 		9E647CEE266B9F7C00F05466 /* お、おうw.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9E647CED266B9F7C00F05466 /* お、おうw.mp3 */; };
 		9E711E27260A932900C6E5E7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E711E26260A932900C6E5E7 /* AppDelegate.swift */; };
 		9E711E29260A932900C6E5E7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E711E28260A932900C6E5E7 /* SceneDelegate.swift */; };
@@ -36,11 +35,9 @@
 		9E711E83260AB0AF00C6E5E7 /* StreamingViewController_02.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E711E82260AB0AF00C6E5E7 /* StreamingViewController_02.swift */; };
 		9E711E88260AB2C000C6E5E7 /* ExtraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E711E87260AB2C000C6E5E7 /* ExtraViewController.swift */; };
 		9E7A3D45266F62A0006EDF04 /* 打ち合わせ戻っていいですかw.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9E7A3D44266F62A0006EDF04 /* 打ち合わせ戻っていいですかw.mp3 */; };
-		9EBB4BAB263555EF0090B015 /* 僕の知り合い.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9EBB4BAA263555EF0090B015 /* 僕の知り合い.mp3 */; };
 		9ED7CA222625D06500DA9FDC /* ツイッター.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9ED7CA212625D06500DA9FDC /* ツイッター.mp3 */; };
 		9ED7CA2F2625D48200DA9FDC /* 彼女というか奥さんというか家内というか.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9ED7CA2E2625D48200DA9FDC /* 彼女というか奥さんというか家内というか.mp3 */; };
 		9ED7CA342625D5CA00DA9FDC /* 好きじゃねーよ!.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9ED7CA332625D5CA00DA9FDC /* 好きじゃねーよ!.mp3 */; };
-		9ED7CA412625D75200DA9FDC /* 野菜は美味しいから食べるの!.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9ED7CA402625D75200DA9FDC /* 野菜は美味しいから食べるの!.mp3 */; };
 		9ED7CA462625D8F300DA9FDC /* びっくりするぐらい無能だったんですよね.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9ED7CA452625D8F300DA9FDC /* びっくりするぐらい無能だったんですよね.mp3 */; };
 		9ED7CA4B2625DD0E00DA9FDC /* ぼく、自分が喋った事覚えてないんですよねw.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9ED7CA4A2625DD0E00DA9FDC /* ぼく、自分が喋った事覚えてないんですよねw.mp3 */; };
 		9ED7CA7D2625E1C600DA9FDC /* バカな人ほど自分を頭良いと.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9ED7CA7C2625E1C600DA9FDC /* バカな人ほど自分を頭良いと.mp3 */; };
@@ -55,10 +52,8 @@
 		9ED7CACD2625F67000DA9FDC /* 無理です.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9ED7CACC2625F67000DA9FDC /* 無理です.mp3 */; };
 		9ED7CAD22625F8F600DA9FDC /* インターネットが写像であることに.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9ED7CAD12625F8F600DA9FDC /* インターネットが写像であることに.mp3 */; };
 		9ED7CAD72625F9BD00DA9FDC /* ダメだこれ.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9ED7CAD62625F9BD00DA9FDC /* ダメだこれ.mp3 */; };
-		9ED7CADF2625FAD700DA9FDC /* ベーシックインカマー.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9ED7CADE2625FAD700DA9FDC /* ベーシックインカマー.mp3 */; };
 		9ED7CAE42625FD0F00DA9FDC /* 我好西村博之.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9ED7CAE32625FD0F00DA9FDC /* 我好西村博之.mp3 */; };
 		9ED7CAEE2625FFCB00DA9FDC /* おやすみなさい.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9ED7CAED2625FFCB00DA9FDC /* おやすみなさい.mp3 */; };
-		9ED7CB06262600D400DA9FDC /* バーカ!!.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9ED7CB05262600D400DA9FDC /* バーカ!!.mp3 */; };
 		9ED7CB0B2626013D00DA9FDC /* バカだと思います.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9ED7CB0A2626013D00DA9FDC /* バカだと思います.mp3 */; };
 		9ED7CB152626032700DA9FDC /* 知能の問題.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9ED7CB142626032700DA9FDC /* 知能の問題.mp3 */; };
 		9ED7CB1D2626040600DA9FDC /* 既存のコピー.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9ED7CB1C2626040600DA9FDC /* 既存のコピー.mp3 */; };
@@ -68,15 +63,21 @@
 		9ED7CB4326260AD200DA9FDC /* Suis ne pas chinois(中国人じゃないよ).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9ED7CB4226260AD200DA9FDC /* Suis ne pas chinois(中国人じゃないよ).mp3 */; };
 		9ED7CB4B26260BF800DA9FDC /* しゃぞー.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9ED7CB4A26260BF800DA9FDC /* しゃぞー.mp3 */; };
 		9ED7CB562626107600DA9FDC /* トゥクトゥクボウシ.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9ED7CB552626107600DA9FDC /* トゥクトゥクボウシ.mp3 */; };
-		9ED7CB622626112A00DA9FDC /* トゥイッター.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9ED7CB612626112A00DA9FDC /* トゥイッター.mp3 */; };
 		9ED7CB672629AFCC00DA9FDC /* ところがどっこい〜.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9ED7CB662629AFCC00DA9FDC /* ところがどっこい〜.mp3 */; };
 		9ED7CB75262ADA0500DA9FDC /* 嫌です.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9ED7CB74262ADA0500DA9FDC /* 嫌です.mp3 */; };
-		9ED7CBB5262AE0DF00DA9FDC /* 朝だから起きて～.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9ED7CBB4262AE0DF00DA9FDC /* 朝だから起きて～.mp3 */; };
-		9ED7CBDA262AE62400DA9FDC /* ベーシックインカム.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9ED7CBD9262AE62400DA9FDC /* ベーシックインカム.mp3 */; };
-		9EDDBAED2625C48B00E3987E /* 不快感を覚えた自分に驚いたんだよね.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9EDDBAEC2625C48B00E3987E /* 不快感を覚えた自分に驚いたんだよね.mp3 */; };
 		9EDDBAF22625C6BD00E3987E /* 人に対して失礼じゃないですか?.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9EDDBAF12625C6BD00E3987E /* 人に対して失礼じゃないですか?.mp3 */; };
 		9EDDBAF72625C7AD00E3987E /* 舌を肥やすなメシが不味くなるぞ.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9EDDBAF62625C7AD00E3987E /* 舌を肥やすなメシが不味くなるぞ.mp3 */; };
 		9EDDBAFC2625C98400E3987E /* トラブル避けた方がいいじゃないですか!.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9EDDBAFB2625C98400E3987E /* トラブル避けた方がいいじゃないですか!.mp3 */; };
+		9EEB1D1A28114F2900E2A3FB /* トゥイッター.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9EEB1D1928114F2900E2A3FB /* トゥイッター.mp3 */; };
+		9EEB1D1C28114F3E00E2A3FB /* 僕の知り合い.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9EEB1D1B28114F3E00E2A3FB /* 僕の知り合い.mp3 */; };
+		9EEB1D1E28114F4700E2A3FB /* ベーシックインカム.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9EEB1D1D28114F4700E2A3FB /* ベーシックインカム.mp3 */; };
+		9EEB1D2028114F4D00E2A3FB /* 不快感を覚えた自分に驚いたんだよね.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9EEB1D1F28114F4D00E2A3FB /* 不快感を覚えた自分に驚いたんだよね.mp3 */; };
+		9EEB1D2228114F5E00E2A3FB /* バーカ!!.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9EEB1D2128114F5E00E2A3FB /* バーカ!!.mp3 */; };
+		9EEB1D2428114F7E00E2A3FB /* ひろゆき増殖.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9EEB1D2328114F7E00E2A3FB /* ひろゆき増殖.mp3 */; };
+		9EEB1D2628114F8600E2A3FB /* 朝だから起きて～.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9EEB1D2528114F8600E2A3FB /* 朝だから起きて～.mp3 */; };
+		9EEB1D2828114F9500E2A3FB /* ベーシックインカマー.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9EEB1D2728114F9500E2A3FB /* ベーシックインカマー.mp3 */; };
+		9EEB1D2A28114F9C00E2A3FB /* 野菜は美味しいから食べるの!.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9EEB1D2928114F9C00E2A3FB /* 野菜は美味しいから食べるの!.mp3 */; };
+		9EEE4C432823FF8800A5253D /* AudioPlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EEE4C422823FF8800A5253D /* AudioPlay.swift */; };
 		B994FFA387DBDDBA5E26CA70 /* Pods_HiroyukiVoiceApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8F370E72E61EE73EF3BC1FC /* Pods_HiroyukiVoiceApp.framework */; };
 /* End PBXBuildFile section */
 
@@ -111,7 +112,6 @@
 		9E647CDD2664D0B800F05466 /* 芸能人崩れなのよ.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "芸能人崩れなのよ.mp3"; sourceTree = "<group>"; };
 		9E647CDF266A667B00F05466 /* おっさんがだらだら.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "おっさんがだらだら.mp3"; sourceTree = "<group>"; };
 		9E647CE3266A6B8100F05466 /* ﾌｰﾝ^3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "ﾌｰﾝ^3.mp3"; sourceTree = "<group>"; };
-		9E647CEB266A6E7C00F05466 /* ひろゆき増殖.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "ひろゆき増殖.mp3"; path = "../../../../../Music/ひろゆき増殖.mp3"; sourceTree = "<group>"; };
 		9E647CED266B9F7C00F05466 /* お、おうw.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "お、おうw.mp3"; sourceTree = "<group>"; };
 		9E711E23260A932900C6E5E7 /* HiroyukiVoiceApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HiroyukiVoiceApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E711E26260A932900C6E5E7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -137,11 +137,9 @@
 		9E711E82260AB0AF00C6E5E7 /* StreamingViewController_02.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreamingViewController_02.swift; sourceTree = "<group>"; };
 		9E711E87260AB2C000C6E5E7 /* ExtraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtraViewController.swift; sourceTree = "<group>"; };
 		9E7A3D44266F62A0006EDF04 /* 打ち合わせ戻っていいですかw.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "打ち合わせ戻っていいですかw.mp3"; sourceTree = "<group>"; };
-		9EBB4BAA263555EF0090B015 /* 僕の知り合い.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "僕の知り合い.mp3"; path = "../../../../../Music/僕の知り合い.mp3"; sourceTree = "<group>"; };
 		9ED7CA212625D06500DA9FDC /* ツイッター.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "ツイッター.mp3"; sourceTree = "<group>"; };
 		9ED7CA2E2625D48200DA9FDC /* 彼女というか奥さんというか家内というか.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "彼女というか奥さんというか家内というか.mp3"; sourceTree = "<group>"; };
 		9ED7CA332625D5CA00DA9FDC /* 好きじゃねーよ!.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "好きじゃねーよ!.mp3"; sourceTree = "<group>"; };
-		9ED7CA402625D75200DA9FDC /* 野菜は美味しいから食べるの!.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "野菜は美味しいから食べるの!.mp3"; path = "../../../../../Music/野菜は美味しいから食べるの!.mp3"; sourceTree = "<group>"; };
 		9ED7CA452625D8F300DA9FDC /* びっくりするぐらい無能だったんですよね.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "びっくりするぐらい無能だったんですよね.mp3"; sourceTree = "<group>"; };
 		9ED7CA4A2625DD0E00DA9FDC /* ぼく、自分が喋った事覚えてないんですよねw.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "ぼく、自分が喋った事覚えてないんですよねw.mp3"; sourceTree = "<group>"; };
 		9ED7CA7C2625E1C600DA9FDC /* バカな人ほど自分を頭良いと.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "バカな人ほど自分を頭良いと.mp3"; sourceTree = "<group>"; };
@@ -156,10 +154,8 @@
 		9ED7CACC2625F67000DA9FDC /* 無理です.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "無理です.mp3"; sourceTree = "<group>"; };
 		9ED7CAD12625F8F600DA9FDC /* インターネットが写像であることに.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "インターネットが写像であることに.mp3"; sourceTree = "<group>"; };
 		9ED7CAD62625F9BD00DA9FDC /* ダメだこれ.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "ダメだこれ.mp3"; sourceTree = "<group>"; };
-		9ED7CADE2625FAD700DA9FDC /* ベーシックインカマー.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "ベーシックインカマー.mp3"; path = "../../../../../Music/ベーシックインカマー.mp3"; sourceTree = "<group>"; };
 		9ED7CAE32625FD0F00DA9FDC /* 我好西村博之.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "我好西村博之.mp3"; sourceTree = "<group>"; };
 		9ED7CAED2625FFCB00DA9FDC /* おやすみなさい.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "おやすみなさい.mp3"; sourceTree = "<group>"; };
-		9ED7CB05262600D400DA9FDC /* バーカ!!.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "バーカ!!.mp3"; path = "../../../../../Music/バーカ!!.mp3"; sourceTree = "<group>"; };
 		9ED7CB0A2626013D00DA9FDC /* バカだと思います.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "バカだと思います.mp3"; sourceTree = "<group>"; };
 		9ED7CB142626032700DA9FDC /* 知能の問題.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "知能の問題.mp3"; sourceTree = "<group>"; };
 		9ED7CB1C2626040600DA9FDC /* 既存のコピー.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "既存のコピー.mp3"; sourceTree = "<group>"; };
@@ -169,15 +165,21 @@
 		9ED7CB4226260AD200DA9FDC /* Suis ne pas chinois(中国人じゃないよ).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Suis ne pas chinois(中国人じゃないよ).mp3"; sourceTree = "<group>"; };
 		9ED7CB4A26260BF800DA9FDC /* しゃぞー.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "しゃぞー.mp3"; sourceTree = "<group>"; };
 		9ED7CB552626107600DA9FDC /* トゥクトゥクボウシ.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "トゥクトゥクボウシ.mp3"; sourceTree = "<group>"; };
-		9ED7CB612626112A00DA9FDC /* トゥイッター.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "トゥイッター.mp3"; path = "../../../../../Music/トゥイッター.mp3"; sourceTree = "<group>"; };
 		9ED7CB662629AFCC00DA9FDC /* ところがどっこい〜.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "ところがどっこい〜.mp3"; sourceTree = "<group>"; };
 		9ED7CB74262ADA0500DA9FDC /* 嫌です.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "嫌です.mp3"; sourceTree = "<group>"; };
-		9ED7CBB4262AE0DF00DA9FDC /* 朝だから起きて～.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "朝だから起きて～.mp3"; path = "../../../../../Music/朝だから起きて～.mp3"; sourceTree = "<group>"; };
-		9ED7CBD9262AE62400DA9FDC /* ベーシックインカム.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "ベーシックインカム.mp3"; path = "../../../../../Music/ベーシックインカム.mp3"; sourceTree = "<group>"; };
-		9EDDBAEC2625C48B00E3987E /* 不快感を覚えた自分に驚いたんだよね.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "不快感を覚えた自分に驚いたんだよね.mp3"; path = "../../../../../Music/不快感を覚えた自分に驚いたんだよね.mp3"; sourceTree = "<group>"; };
 		9EDDBAF12625C6BD00E3987E /* 人に対して失礼じゃないですか?.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "人に対して失礼じゃないですか?.mp3"; sourceTree = "<group>"; };
 		9EDDBAF62625C7AD00E3987E /* 舌を肥やすなメシが不味くなるぞ.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "舌を肥やすなメシが不味くなるぞ.mp3"; sourceTree = "<group>"; };
 		9EDDBAFB2625C98400E3987E /* トラブル避けた方がいいじゃないですか!.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "トラブル避けた方がいいじゃないですか!.mp3"; sourceTree = "<group>"; };
+		9EEB1D1928114F2900E2A3FB /* トゥイッター.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "トゥイッター.mp3"; sourceTree = "<group>"; };
+		9EEB1D1B28114F3E00E2A3FB /* 僕の知り合い.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "僕の知り合い.mp3"; sourceTree = "<group>"; };
+		9EEB1D1D28114F4700E2A3FB /* ベーシックインカム.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "ベーシックインカム.mp3"; sourceTree = "<group>"; };
+		9EEB1D1F28114F4D00E2A3FB /* 不快感を覚えた自分に驚いたんだよね.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "不快感を覚えた自分に驚いたんだよね.mp3"; sourceTree = "<group>"; };
+		9EEB1D2128114F5E00E2A3FB /* バーカ!!.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "バーカ!!.mp3"; sourceTree = "<group>"; };
+		9EEB1D2328114F7E00E2A3FB /* ひろゆき増殖.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "ひろゆき増殖.mp3"; sourceTree = "<group>"; };
+		9EEB1D2528114F8600E2A3FB /* 朝だから起きて～.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "朝だから起きて～.mp3"; sourceTree = "<group>"; };
+		9EEB1D2728114F9500E2A3FB /* ベーシックインカマー.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "ベーシックインカマー.mp3"; sourceTree = "<group>"; };
+		9EEB1D2928114F9C00E2A3FB /* 野菜は美味しいから食べるの!.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "野菜は美味しいから食べるの!.mp3"; sourceTree = "<group>"; };
+		9EEE4C422823FF8800A5253D /* AudioPlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlay.swift; sourceTree = "<group>"; };
 		BC08C619B7DE81E08FE74286 /* Pods-HiroyukiVoiceApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HiroyukiVoiceApp.debug.xcconfig"; path = "Target Support Files/Pods-HiroyukiVoiceApp/Pods-HiroyukiVoiceApp.debug.xcconfig"; sourceTree = "<group>"; };
 		BFA9D8F7866C102929F43D88 /* Pods-HiroyukiVoiceApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HiroyukiVoiceApp.release.xcconfig"; path = "Target Support Files/Pods-HiroyukiVoiceApp/Pods-HiroyukiVoiceApp.release.xcconfig"; sourceTree = "<group>"; };
 		C8F370E72E61EE73EF3BC1FC /* Pods_HiroyukiVoiceApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HiroyukiVoiceApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -263,6 +265,7 @@
 				9E711E2F260A932900C6E5E7 /* Assets.xcassets */,
 				9E711E31260A932900C6E5E7 /* LaunchScreen.storyboard */,
 				9E711E34260A932900C6E5E7 /* Info.plist */,
+				9EEE4C422823FF8800A5253D /* AudioPlay.swift */,
 			);
 			path = HiroyukiVoiceApp;
 			sourceTree = "<group>";
@@ -301,15 +304,15 @@
 			children = (
 				9E711E6E260AA50C00C6E5E7 /* ウソつくのやめてもらっていいですか?.mp3 */,
 				9ED7CA212625D06500DA9FDC /* ツイッター.mp3 */,
-				9ED7CB612626112A00DA9FDC /* トゥイッター.mp3 */,
-				9EBB4BAA263555EF0090B015 /* 僕の知り合い.mp3 */,
+				9EEB1D1B28114F3E00E2A3FB /* 僕の知り合い.mp3 */,
+				9EEB1D1928114F2900E2A3FB /* トゥイッター.mp3 */,
 				9E711E6F260AA50C00C6E5E7 /* あなたの感想ですよね?.mp3 */,
 				9E711E70260AA50C00C6E5E7 /* 写像？.mp3 */,
 				9ED7CA2E2625D48200DA9FDC /* 彼女というか奥さんというか家内というか.mp3 */,
-				9ED7CBD9262AE62400DA9FDC /* ベーシックインカム.mp3 */,
+				9EEB1D1D28114F4700E2A3FB /* ベーシックインカム.mp3 */,
 				9ED7CA7C2625E1C600DA9FDC /* バカな人ほど自分を頭良いと.mp3 */,
+				9EEB1D1F28114F4D00E2A3FB /* 不快感を覚えた自分に驚いたんだよね.mp3 */,
 				9ED7CB142626032700DA9FDC /* 知能の問題.mp3 */,
-				9EDDBAEC2625C48B00E3987E /* 不快感を覚えた自分に驚いたんだよね.mp3 */,
 				9E711E71260AA50C00C6E5E7 /* はい、いいえで答えてください.mp3 */,
 				9E711E72260AA50C00C6E5E7 /* なんかそういうデータあるんですか?.mp3 */,
 				9EDDBAF62625C7AD00E3987E /* 舌を肥やすなメシが不味くなるぞ.mp3 */,
@@ -332,7 +335,7 @@
 				9ED7CAE32625FD0F00DA9FDC /* 我好西村博之.mp3 */,
 				9ED7CB74262ADA0500DA9FDC /* 嫌です.mp3 */,
 				9ED7CAAB2625EAE500DA9FDC /* ビブラートひろゆき.mp3 */,
-				9ED7CB05262600D400DA9FDC /* バーカ!!.mp3 */,
+				9EEB1D2128114F5E00E2A3FB /* バーカ!!.mp3 */,
 				9ED7CB262626078600DA9FDC /* シャトーブリオン.mp3 */,
 				9ED7CB4226260AD200DA9FDC /* Suis ne pas chinois(中国人じゃないよ).mp3 */,
 				9ED7CACC2625F67000DA9FDC /* 無理です.mp3 */,
@@ -352,11 +355,11 @@
 				9E647CDB2664CBA400F05466 /* 今家ですよね？どこに帰るんですかwww.mp3 */,
 				9E647CE3266A6B8100F05466 /* ﾌｰﾝ^3.mp3 */,
 				9E7A3D44266F62A0006EDF04 /* 打ち合わせ戻っていいですかw.mp3 */,
+				9EEB1D2528114F8600E2A3FB /* 朝だから起きて～.mp3 */,
+				9EEB1D2328114F7E00E2A3FB /* ひろゆき増殖.mp3 */,
 				9E647CDF266A667B00F05466 /* おっさんがだらだら.mp3 */,
 				9E647CED266B9F7C00F05466 /* お、おうw.mp3 */,
-				9E647CEB266A6E7C00F05466 /* ひろゆき増殖.mp3 */,
 				9E647CDD2664D0B800F05466 /* 芸能人崩れなのよ.mp3 */,
-				9ED7CBB4262AE0DF00DA9FDC /* 朝だから起きて～.mp3 */,
 			);
 			path = "配信2";
 			sourceTree = "<group>";
@@ -364,14 +367,14 @@
 		9ED7CA112625CFAA00DA9FDC /* エキストラ */ = {
 			isa = PBXGroup;
 			children = (
-				9ED7CA402625D75200DA9FDC /* 野菜は美味しいから食べるの!.mp3 */,
 				9ED7CA332625D5CA00DA9FDC /* 好きじゃねーよ!.mp3 */,
 				9ED7CAED2625FFCB00DA9FDC /* おやすみなさい.mp3 */,
 				9E647CD92664C55300F05466 /* もう帰るわ!.mp3 */,
 				9ED7CAD62625F9BD00DA9FDC /* ダメだこれ.mp3 */,
 				9E647CD72664C4C600F05466 /* ちょ、ちょっと聞けよお前!.mp3 */,
-				9ED7CADE2625FAD700DA9FDC /* ベーシックインカマー.mp3 */,
+				9EEB1D2928114F9C00E2A3FB /* 野菜は美味しいから食べるの!.mp3 */,
 				9ED7CB1C2626040600DA9FDC /* 既存のコピー.mp3 */,
+				9EEB1D2728114F9500E2A3FB /* ベーシックインカマー.mp3 */,
 				9ED7CB4A26260BF800DA9FDC /* しゃぞー.mp3 */,
 				9ED7CB3D26260ACD00DA9FDC /* Chinise Go!(中国人消えろ).mp3 */,
 				9ED7CB21262605E900DA9FDC /* コッコピ.mp3 */,
@@ -499,46 +502,44 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9EEB1D1E28114F4700E2A3FB /* ベーシックインカム.mp3 in Resources */,
 				9ED7CA8F2625E45E00DA9FDC /* バカなんじゃねぇかな.mp3 in Resources */,
 				9E647CD82664C4C600F05466 /* ちょ、ちょっと聞けよお前!.mp3 in Resources */,
 				9ED7CA342625D5CA00DA9FDC /* 好きじゃねーよ!.mp3 in Resources */,
 				9E7A3D45266F62A0006EDF04 /* 打ち合わせ戻っていいですかw.mp3 in Resources */,
-				9ED7CBB5262AE0DF00DA9FDC /* 朝だから起きて～.mp3 in Resources */,
 				9E711E76260AA50C00C6E5E7 /* 写像？.mp3 in Resources */,
 				9E711E77260AA50C00C6E5E7 /* はい、いいえで答えてください.mp3 in Resources */,
-				9E647CEC266A6E7C00F05466 /* ひろゆき増殖.mp3 in Resources */,
+				9EEB1D2828114F9500E2A3FB /* ベーシックインカマー.mp3 in Resources */,
+				9EEB1D2228114F5E00E2A3FB /* バーカ!!.mp3 in Resources */,
 				9ED7CA972625E4E500DA9FDC /* バカなの?.mp3 in Resources */,
 				9ED7CB22262605E900DA9FDC /* コッコピ.mp3 in Resources */,
-				9ED7CA412625D75200DA9FDC /* 野菜は美味しいから食べるの!.mp3 in Resources */,
 				9ED7CACD2625F67000DA9FDC /* 無理です.mp3 in Resources */,
+				9EEB1D2628114F8600E2A3FB /* 朝だから起きて～.mp3 in Resources */,
 				9E711E33260A932900C6E5E7 /* LaunchScreen.storyboard in Resources */,
 				9E647CE4266A6B8100F05466 /* ﾌｰﾝ^3.mp3 in Resources */,
 				9E647CDA2664C55300F05466 /* もう帰るわ!.mp3 in Resources */,
 				9ED7CB3E26260ACD00DA9FDC /* Chinise Go!(中国人消えろ).mp3 in Resources */,
 				9ED7CB75262ADA0500DA9FDC /* 嫌です.mp3 in Resources */,
 				9ED7CAB12625EC6700DA9FDC /* ッウェッウェッウェッw.mp3 in Resources */,
+				9EEB1D1C28114F3E00E2A3FB /* 僕の知り合い.mp3 in Resources */,
 				9E647CEE266B9F7C00F05466 /* お、おうw.mp3 in Resources */,
-				9ED7CB622626112A00DA9FDC /* トゥイッター.mp3 in Resources */,
 				9ED7CAD22625F8F600DA9FDC /* インターネットが写像であることに.mp3 in Resources */,
 				9E711E30260A932900C6E5E7 /* Assets.xcassets in Resources */,
-				9ED7CADF2625FAD700DA9FDC /* ベーシックインカマー.mp3 in Resources */,
 				9ED7CA4B2625DD0E00DA9FDC /* ぼく、自分が喋った事覚えてないんですよねw.mp3 in Resources */,
-				9EBB4BAB263555EF0090B015 /* 僕の知り合い.mp3 in Resources */,
 				9EDDBAFC2625C98400E3987E /* トラブル避けた方がいいじゃないですか!.mp3 in Resources */,
+				9EEB1D2428114F7E00E2A3FB /* ひろゆき増殖.mp3 in Resources */,
 				9E711E74260AA50C00C6E5E7 /* ウソつくのやめてもらっていいですか?.mp3 in Resources */,
-				9ED7CBDA262AE62400DA9FDC /* ベーシックインカム.mp3 in Resources */,
 				9ED7CB0B2626013D00DA9FDC /* バカだと思います.mp3 in Resources */,
 				9E711E75260AA50C00C6E5E7 /* あなたの感想ですよね?.mp3 in Resources */,
 				9ED7CB562626107600DA9FDC /* トゥクトゥクボウシ.mp3 in Resources */,
 				9EDDBAF72625C7AD00E3987E /* 舌を肥やすなメシが不味くなるぞ.mp3 in Resources */,
 				9ED7CAE42625FD0F00DA9FDC /* 我好西村博之.mp3 in Resources */,
 				9ED7CA7D2625E1C600DA9FDC /* バカな人ほど自分を頭良いと.mp3 in Resources */,
-				9EDDBAED2625C48B00E3987E /* 不快感を覚えた自分に驚いたんだよね.mp3 in Resources */,
+				9EEB1D1A28114F2900E2A3FB /* トゥイッター.mp3 in Resources */,
 				9ED7CA852625E39800DA9FDC /* バカなんだから.mp3 in Resources */,
 				9ED7CB272626078600DA9FDC /* シャトーブリオン.mp3 in Resources */,
 				9E711E79260AA50C00C6E5E7 /* うそはうそであると見抜ける人でないと.mp3 in Resources */,
 				9E647CE0266A667B00F05466 /* おっさんがだらだら.mp3 in Resources */,
-				9ED7CB06262600D400DA9FDC /* バーカ!!.mp3 in Resources */,
 				9ED7CB4B26260BF800DA9FDC /* しゃぞー.mp3 in Resources */,
 				9ED7CA462625D8F300DA9FDC /* びっくりするぐらい無能だったんですよね.mp3 in Resources */,
 				9ED7CB672629AFCC00DA9FDC /* ところがどっこい〜.mp3 in Resources */,
@@ -554,7 +555,9 @@
 				9ED7CA2F2625D48200DA9FDC /* 彼女というか奥さんというか家内というか.mp3 in Resources */,
 				9ED7CB152626032700DA9FDC /* 知能の問題.mp3 in Resources */,
 				9ED7CA222625D06500DA9FDC /* ツイッター.mp3 in Resources */,
+				9EEB1D2A28114F9C00E2A3FB /* 野菜は美味しいから食べるの!.mp3 in Resources */,
 				9ED7CAB62625ED8100DA9FDC /* はずかしぃ!.mp3 in Resources */,
+				9EEB1D2028114F4D00E2A3FB /* 不快感を覚えた自分に驚いたんだよね.mp3 in Resources */,
 				9ED7CAD72625F9BD00DA9FDC /* ダメだこれ.mp3 in Resources */,
 				9E711E2E260A932900C6E5E7 /* Main.storyboard in Resources */,
 				9EDDBAF22625C6BD00E3987E /* 人に対して失礼じゃないですか?.mp3 in Resources */,
@@ -687,6 +690,7 @@
 			files = (
 				9E711E7E260AA61500C6E5E7 /* StreamingViewController_01.swift in Sources */,
 				9E711E27260A932900C6E5E7 /* AppDelegate.swift in Sources */,
+				9EEE4C432823FF8800A5253D /* AudioPlay.swift in Sources */,
 				9E40094F264A98C0001F0BED /* OtherViewController.swift in Sources */,
 				9E711E29260A932900C6E5E7 /* SceneDelegate.swift in Sources */,
 				9E711E83260AB0AF00C6E5E7 /* StreamingViewController_02.swift in Sources */,
